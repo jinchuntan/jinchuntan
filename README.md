@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hello👋
 
 I'm Jin Chun, an enthusiastic and aspiring software engineer currently pursuing my studies at the Monash University Malaysia, majoring in Electrical and Computer System Engineering. My journey in tech has been driven by a passion for solving real-world problems through innovative software solutions. I have a keen interest in data structures, algorithms and web development, and I'm always eager to explore new technologies.
 
