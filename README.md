@@ -10,7 +10,7 @@ I'm Nigel Tan Jin Chun, an enthusiastic and aspiring software engineer currently
 - 📫 How to reach me: You can connect with me on [LinkedIn](https://www.linkedin.com/in/tanjinchun/) or email me at [nigeltanjc@gmail.com](mailto:nigeltanjc@gmail.com).
 - ⚡ Fun fact: Apart from coding, I love hiking and have recently taken up photography to capture the stunning views from my adventures.
 
-Feel free to check out my projects below and my [resume](https://github.com/jinchuntan/jinchuntan/blob/main/Engineering%20Internship%20CV.pdf), and don't hesitate to reach out if you think we can work together on something exciting! See you around ~
+Feel free to check out my projects below and my [resume](https://github.com/jinchuntan/jinchuntan/blob/main/Tan%20Jin%20Chun%20-%20Resume.pdf), and don't hesitate to reach out if you think we can work together on something exciting! See you around ~
 
 
 <!--
