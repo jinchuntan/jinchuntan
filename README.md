@@ -1,6 +1,6 @@
 ### Hello👋
 
-I'm Nigel Tan Jin Chun, an enthusiastic and aspiring software engineer currently pursuing my studies at the Monash University Malaysia, majoring in Electrical and Computer System Engineering. My journey in tech has been driven by a passion for solving real-world problems through innovative software solutions. I have a keen interest in data structures, algorithms and web development, and I'm always eager to explore new technologies.
+I'm Tan Jin Chun (Nigel), an enthusiastic and aspiring software engineer currently pursuing my studies at the Monash University Malaysia, majoring in Electrical and Computer System Engineering. My journey in tech has been driven by a passion for solving real-world problems through innovative software solutions. I have a keen interest in data structures, algorithms and web development, and I'm always eager to explore new technologies.
 
 - 🔭 I’m currently working on a collaborative project, developing a web application designed to streamline event management. We're leveraging technologies such as React, Node.js, and MongoDB to create a user-friendly interface and efficient backend.
 - 🌱 I’m currently learning cloud computing and microservices architecture to broaden my expertise in scalable web application development.
