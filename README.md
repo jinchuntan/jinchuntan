@@ -7,7 +7,7 @@ I'm Tan Jin Chun (Nigel), an enthusiastic and aspiring software engineer current
 - 👯 I’m looking to collaborate on open-source projects related to web development, particularly those focused on improving user experience and accessibility.
 - 🤔 I’m looking for help with advanced concepts in cloud security and distributed systems.
 - 💬 Ask me about my internship experiences, where I've contributed to projects involving software development and data analysis, enhancing my coding skills and understanding of software engineering practices.
-- 📫 How to reach me: You can connect with me on [LinkedIn](https://www.linkedin.com/in/tanjinchun/) or email me at [nigeltanjc@gmail.com](mailto:nigeltanjc@gmail.com).
+- 📫 How to reach me: You can connect with me on [LinkedIn](https://www.linkedin.com/in/tanjinchun/) or email me at [nigeltanjc@gmail.com](mailto:nigeltanjc@gmail.com) or through mobile: +6011-24215639
 - ⚡ Fun fact: Apart from coding, I love hiking and have recently taken up photography to capture the stunning views from my adventures.
 
 Feel free to check out my projects below and my [resume](https://github.com/jinchuntan/jinchuntan/blob/main/Tan%20Jin%20Chun%20-%20Resume.pdf), and don't hesitate to reach out if you think we can work together on something exciting! See you around ~
