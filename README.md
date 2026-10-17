@@ -1,6 +1,6 @@
 # Hi, I'm Nigel 👋
 
-I'm **Tan Jin Chun (Nigel)**, a **Physical Design Engineer at GreatASIC** and a **Master of Computer Science (Applied Computing) candidate at Universiti Malaya**, based in Kuala Lumpur, Malaysia.
+I'm **Tan Jin Chun (Nigel)**, a **Physical Design Engineer** and **Agora Ambassador**
 
 My work brings together semiconductor engineering, software automation, and applied machine learning. I enjoy building tools that make engineering workflows easier to manage and turn data into useful decisions.
 
