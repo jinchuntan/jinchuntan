@@ -1,29 +1,44 @@
-### Hello👋
+# Hi, I'm Nigel 👋
 
-I'm Tan Jin Chun (Nigel), an enthusiastic and aspiring software engineer currently pursuing my studies at the Monash University Malaysia, majoring in Electrical and Computer System Engineering. My journey in tech has been driven by a passion for solving real-world problems through innovative software solutions. I have a keen interest in data structures, algorithms and web development, and I'm always eager to explore new technologies.
+I'm **Tan Jin Chun (Nigel)**, a **Physical Design Engineer at GreatASIC** and a **Master of Computer Science (Applied Computing) candidate at Universiti Malaya**, based in Kuala Lumpur, Malaysia.
 
-- 🔭 I’m currently working on a collaborative project, developing a web application designed to streamline event management. We're leveraging technologies such as React, Node.js, and MongoDB to create a user-friendly interface and efficient backend.
-- 🌱 I’m currently learning cloud computing and microservices architecture to broaden my expertise in scalable web application development.
-- 👯 I’m looking to collaborate on open-source projects related to web development, particularly those focused on improving user experience and accessibility.
-- 🤔 I’m looking for help with advanced concepts in cloud security and distributed systems.
-- 💬 Ask me about my internship experiences, where I've contributed to projects involving software development and data analysis, enhancing my coding skills and understanding of software engineering practices.
-- 📫 How to reach me: You can connect with me on [LinkedIn](https://www.linkedin.com/in/tanjinchun/) or email me at [nigeltanjc@gmail.com](mailto:nigeltanjc@gmail.com) or through mobile: +6011-24215639
-- ⚡ Fun fact: Apart from coding, I love hiking and have recently taken up photography to capture the stunning views from my adventures.
+My work brings together semiconductor engineering, software automation, and applied machine learning. I enjoy building tools that make engineering workflows easier to manage and turn data into useful decisions.
 
-Feel free to check out my projects below and my [resume](https://github.com/jinchuntan/jinchuntan/blob/main/Tan%20Jin%20Chun%20-%20Resume.pdf), and don't hesitate to reach out if you think we can work together on something exciting! See you around ~
+## What I'm working on
 
+- **Semiconductor physical design and power integrity** — working on chip implementation and analysis, alongside Python and Tcl tools for engineering workflows.
+- **Uncertainty-aware monitoring** — researching how forecasting and conformal prediction can improve the reliability of smart-building alerts, with attention to fault detection, alert workload, and detection delay.
+- **Engineering dashboards** — developing tools to organise APR and static timing analysis metrics into consistent reports and dashboards.
+- **Embedded prototyping** — developing **Quipus**, a Fovea-branded hardware prototype exploring recording, local storage, and Wi-Fi connectivity.
 
-<!--
-**jinchuntan/jinchuntan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Selected projects
 
-Here are some ideas to get you started:
+### [ConfoSense](https://github.com/jinchuntan/confosense)
+My master's research codebase for uncertainty-aware smart-building monitoring and alerting. It connects time-series forecasting, conformal prediction, and alert generation, then evaluates detection performance, alert burden, robustness, and recalibration under a common experimental protocol.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [APR Dashboard](https://github.com/jinchuntan/combo)
+Python tooling for structured metric submissions and HTML dashboards, making APR and timing results easier to review and compare.
+
+### [Fovea / Quipus](https://fovea.space/)
+An ongoing hardware prototype project connecting embedded development with a compact recording device.
+
+## Tools and interests
+
+- **Programming and automation:** Python, Tcl, C
+- **Semiconductor engineering:** physical design, power integrity, static timing analysis, Cadence Innovus and Voltus
+- **Applied machine learning:** time-series forecasting, XGBoost, LSTM models, conformal prediction, and reproducible evaluation
+- **Embedded systems:** ESP32 prototyping and IoT
+
+My technical background includes Electrical and Computer Systems Engineering at Monash University Malaysia and coding projects at 42KL.
+
+## Beyond engineering
+
+- **Industry Advisory Panel member** for Semiconductor Systems Engineering at Monash University Malaysia.
+- **Agora Ambassador** and **Aspire Institute volunteer**, supporting learning and community initiatives.
+- **PMI IGNITE 2026 Young Project Manager Award finalist** for the *Hybrid Solar Lighting System* project.
+
+I'm interested in collaborating on engineering automation, reliable IoT systems, and practical machine-learning applications.
+
+## Connect
+
+[Website](https://tanjinchun.me/) · [LinkedIn](https://www.linkedin.com/in/tanjinchun/) · [Email](mailto:nigeltanjc@gmail.com) · [ORCID](https://orcid.org/0009-0000-6850-8570) · [Credly](https://www.credly.com/users/tanjinchun)
