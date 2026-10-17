@@ -16,9 +16,6 @@ My work brings together semiconductor engineering, software automation, and appl
 ### [ConfoSense](https://github.com/jinchuntan/confosense)
 My master's research codebase for uncertainty-aware smart-building monitoring and alerting. It connects time-series forecasting, conformal prediction, and alert generation, then evaluates detection performance, alert burden, robustness, and recalibration under a common experimental protocol.
 
-### [APR Dashboard](https://github.com/jinchuntan/combo)
-Python tooling for structured metric submissions and HTML dashboards, making APR and timing results easier to review and compare.
-
 ### [Fovea / Quipus](https://fovea.space/)
 An ongoing hardware prototype project connecting embedded development with a compact recording device.
 
