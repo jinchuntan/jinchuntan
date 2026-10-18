@@ -12,7 +12,8 @@ community links are curated in `README.md`.
 - Repository totals count distinct target repositories, including targets with
   closed PRs. Personal-repository PRs, private contributions, commits, issues,
   reviews, fork counts and stars are not included in the PR totals.
-- GitHub search indexing may lag behind recent activity.
+- Discovery reads the user's paginated GraphQL PR connection by its stable
+  public node ID. It does not depend on author-search indexing.
 
 The checked-in `data/contributions.json` records the public source data. Edit
 `profile-config.json` to curate category labels. New targets still appear under
@@ -38,9 +39,9 @@ For an offline preview, use:
 python3 scripts/update_profile.py --from-snapshot data/contributions.json
 ```
 
-API failures, incomplete search results, duplicates and missing README markers
-fail the workflow before publishing. Search is paginated and explicitly stops
-at GitHub's 1,000-result search limit rather than silently undercounting.
+API failures, incomplete PR connections, duplicates and missing README markers
+fail the workflow before publishing. All pages are read and checked against
+the connection's total count. No search-result cap is applied.
 Scheduled jobs may be delayed by GitHub, and public-repository schedules can be
 disabled after 60 days of inactivity. The last successful snapshot remains
 visible if a run fails; the Actions page shows its status.

@@ -14,12 +14,15 @@ I'm **Tan Jin Chun (Nigel)**, a physical design engineer in Kuala Lumpur. I buil
 
 <!-- CONTRIBUTIONS:START -->
 
+<table>
+  <tr>
+    <td colspan="3">
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/contributions-compact.svg">
   <img src="./assets/contributions.svg" width="100%" alt="41 public upstream PRs across 19 repositories: 6 merged, 35 open, 0 closed without merging.">
 </picture>
-
-<table>
+    </td>
+  </tr>
   <tr>
     <td width="33%" valign="top">
       <h4>IC design</h4>

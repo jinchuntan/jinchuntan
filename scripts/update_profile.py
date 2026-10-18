@@ -19,71 +19,86 @@ REPO = re.compile(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+")
 STATUSES = {"Merged", "Open", "Closed"}
 
 
-def github_json(path):
-    headers = {"Accept": "application/vnd.github+json", "User-Agent": "jinchuntan-profile"}
-    if token := os.environ.get("GITHUB_TOKEN"):
-        headers["Authorization"] = f"Bearer {token}"
-    request = Request("https://api.github.com" + path, headers=headers)
+QUERY = """
+query ProfilePullRequests($userId: ID!, $after: String) {
+  node(id: $userId) {
+    ... on User {
+      login
+      pullRequests(first: 100, after: $after, orderBy: {field: CREATED_AT, direction: ASC}) {
+        totalCount
+        pageInfo { hasNextPage endCursor }
+        nodes {
+          number title url state mergedAt updatedAt
+          author { login }
+          repository { nameWithOwner visibility owner { login } }
+        }
+      }
+    }
+  }
+}
+"""
+
+
+def github_graphql(variables):
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        raise ValueError("GITHUB_TOKEN is needed for a live refresh; use --from-snapshot for an offline preview")
+    request = Request(
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": QUERY, "variables": variables}).encode("utf-8"),
+        headers={"Accept": "application/vnd.github+json", "Content-Type": "application/json",
+                 "User-Agent": "jinchuntan-profile", "Authorization": f"Bearer {token}"},
+    )
     with urlopen(request, timeout=30) as response:
         return json.load(response)
 
 
-def collect_pull_requests(username, get_json=github_json):
-    """Fail on partial search results instead of publishing understated totals."""
-    items = []
-    total = None
-    page = 1
-    while True:
-        params = urlencode({
-            "q": f"is:pr author:{username} -user:{username} is:public",
-            "sort": "created", "order": "asc", "per_page": 100, "page": page,
-        })
-        result = get_json("/search/issues?" + params)
-        count = result["total_count"]
-        if result.get("incomplete_results") or count > 1000:
-            raise ValueError("GitHub search is incomplete or exceeds its 1,000-result limit")
-        if total is not None and count != total:
-            raise ValueError("Search results changed during pagination; try again")
-        total = count
-        batch = result["items"]
-        items.extend(batch)
-        if len(items) >= total:
-            break
-        if len(batch) != 100:
-            raise ValueError("GitHub returned a partial search page")
-        page += 1
-    if len(items) != total:
-        raise ValueError("Search result count does not match its pages")
-
+def collect_pull_requests(username, get_graphql=github_graphql, user_node_id="MDQ6VXNlcjc5MTQwNjIw"):
+    """Read the user's PR connection directly, without relying on author search."""
     records = []
-    for item in items:
-        if item["user"]["login"].casefold() != username.casefold():
-            raise ValueError("Unexpected PR author in GitHub search")
-        repository_url = item["repository_url"]
-        prefix = "https://api.github.com/repos/"
-        if not repository_url.startswith(prefix):
-            raise ValueError("Unexpected repository URL")
-        repository = repository_url[len(prefix):]
-        if not REPO.fullmatch(repository):
-            raise ValueError("Unexpected repository name")
-        if repository.split("/")[0].casefold() == username.casefold():
-            continue
-        number = item["number"]
-        if type(number) is not int or number < 1:
-            raise ValueError("Invalid pull request number")
-        pr = item["pull_request"]
-        merged_at = pr.get("merged_at")
-        if item["state"] not in {"open", "closed"}:
-            raise ValueError("Unknown pull request state")
-        # Older search responses omit merged_at. A closed PR is not necessarily merged.
-        if item["state"] == "closed" and "merged_at" not in pr:
-            merged_at = get_json(f"/repos/{repository}/pulls/{number}")["merged_at"]
-        records.append({
-            "repository": repository, "number": number, "title": item["title"],
-            "status": "Merged" if merged_at else "Open" if item["state"] == "open" else "Closed",
-            "url": f"https://github.com/{repository}/pull/{number}",
-            "updated_at": item["updated_at"],
-        })
+    cursor = None
+    cursors = set()
+    total = None
+    fetched = 0
+    while True:
+        result = get_graphql({"userId": user_node_id, "after": cursor})
+        if result.get("errors"):
+            raise ValueError("GitHub GraphQL returned errors; keeping the previous snapshot")
+        user = result.get("data", {}).get("node")
+        if not user or user.get("login", "").casefold() != username.casefold():
+            raise ValueError("GitHub did not return the expected profile owner")
+        connection = user["pullRequests"]
+        if total is not None and connection["totalCount"] != total:
+            raise ValueError("PR count changed during pagination; try again")
+        total = connection["totalCount"]
+        for pr in connection["nodes"]:
+            if not pr:
+                raise ValueError("GitHub returned a partial PR connection")
+            fetched += 1
+            repo = pr["repository"]
+            if (repo["visibility"] != "PUBLIC"
+                    or repo["owner"]["login"].casefold() == username.casefold()):
+                continue
+            if not pr["author"] or pr["author"]["login"].casefold() != username.casefold():
+                raise ValueError("Unexpected PR author")
+            if pr["state"] not in {"OPEN", "CLOSED", "MERGED"}:
+                raise ValueError("Unknown PR state")
+            if (pr["state"] == "MERGED") != bool(pr["mergedAt"]):
+                raise ValueError("Inconsistent PR merge information")
+            records.append({
+                "repository": repo["nameWithOwner"], "number": pr["number"], "title": pr["title"],
+                "status": {"OPEN": "Open", "MERGED": "Merged", "CLOSED": "Closed"}[pr["state"]],
+                "url": pr["url"], "updated_at": pr["updatedAt"],
+            })
+        page = connection["pageInfo"]
+        if not page["hasNextPage"]:
+            break
+        cursor = page["endCursor"]
+        if not cursor or cursor in cursors or not connection["nodes"]:
+            raise ValueError("Invalid pagination cursor")
+        cursors.add(cursor)
+    if fetched != total:
+        raise ValueError("PR connection count does not match its pages")
     return records
 
 
@@ -152,10 +167,11 @@ def render_contributions(snapshot, config):
         return f'<a href="{link}">{escape(label)}</a><br><sub>{state}</sub>'
 
     lines = [
+        '<table>', '  <tr>', '    <td colspan="3">',
         '<picture>',
         '  <source media="(max-width: 600px)" srcset="./assets/contributions-compact.svg">',
         f'  <img src="./assets/contributions.svg" width="100%" alt="{escape(alt, quote=True)}">',
-        '</picture>', '', '<table>', '  <tr>',
+        '</picture>', '    </td>', '  </tr>', '  <tr>',
     ]
     known = set()
     for group in config["groups"]:
@@ -213,7 +229,7 @@ def main():
         snapshot = json.loads(args.from_snapshot.read_text(encoding="utf-8"))
     else:
         snapshot = {"username": username, "checked_on": datetime.now(timezone.utc).date().isoformat(),
-                    "pull_requests": collect_pull_requests(username)}
+                    "pull_requests": collect_pull_requests(username, user_node_id=config["user_node_id"])}
     validate_snapshot(snapshot, username)
     snapshot["pull_requests"].sort(key=lambda pr: (pr["repository"].casefold(), pr["number"]))
     readme = replace_section((ROOT / "README.md").read_text(encoding="utf-8"), render_contributions(snapshot, config))
