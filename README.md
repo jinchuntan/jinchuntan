@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-1c6c41f5d8d5.svg">
-  <img src="./assets/contributions-1c6c41f5d8d5.svg" width="100%" alt="42 public upstream PRs across 19 repositories: 7 merged, 35 open, 0 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-d880e401cadf.svg">
+  <img src="./assets/contributions-d880e401cadf.svg" width="100%" alt="44 public upstream PRs across 19 repositories: 9 merged, 34 open, 1 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -99,10 +99,10 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
     <td width="33%" valign="top">
       <h4>Developer tools</h4>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aastral-sh%2Fruff&amp;type=pullrequests">Ruff</a> <sub>2 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aprettier%2Fprettier&amp;type=pullrequests">Prettier</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aprettier%2Fprettier&amp;type=pullrequests">Prettier</a> <sub>1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apytest-dev%2Fpytest&amp;type=pullrequests">pytest</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a> <sub>1 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>4 merged · 5 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>6 merged · 5 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 open</sub>
@@ -111,15 +111,17 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <details>
-<summary><strong>Explore all 42 pull requests</strong></summary>
+<summary><strong>Explore all 44 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1101">#1101 · fix(semantic-utils): remove unused block depth cache</a> | Open |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1100">#1100 · fix(stack-analyzer): validate localSet float widths</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1093">#1093 · fix(tokenizer): reject non-ASCII entity names</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1091">#1091 · fix(memory-reference-resolver): preserve float64 metadata bounds</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1090">#1090 · fix(memory-planner): preserve float64 array value types</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1089">#1089 · fix(tokenizer): preserve exponent signs in compile-time expressions</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1088">#1088 · fix(wasm-codegen): preserve one-element array initializers</a> | Open |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1089">#1089 · fix(tokenizer): preserve exponent signs in compile-time expressions</a> | Merged |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1088">#1088 · fix(wasm-codegen): preserve one-element array initializers</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1087">#1087 · fix(tokenizer): reject overflowing hexadecimal and binary literals</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1082">#1082 · fix(tokenizer): invalidate cached ASTs after source edits</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1080">#1080 · fix(project-preparser): preserve note block content</a> | Merged |
@@ -147,7 +149,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | ollama/ollama | <a href="https://github.com/ollama/ollama/pull/19096">#19096 · Handle servers that ignore download ranges</a> | Open |
 | pandas-dev/pandas | <a href="https://github.com/pandas-dev/pandas/pull/71269">#71269 · BUG preserve error bars when plot labels are changed</a> | Open |
 | piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/14">#14 · Add Bun test runner detection</a> | Merged |
-| prettier/prettier | <a href="https://github.com/prettier/prettier/pull/20312">#20312 · Keep method chains stable when the last argument expands</a> | Open |
+| prettier/prettier | <a href="https://github.com/prettier/prettier/pull/20312">#20312 · Keep method chains stable when the last argument expands</a> | Closed |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1007">#1007 · fix: use the package version in OpenAPI</a> | Open |
 | pytest-dev/pytest | <a href="https://github.com/pytest-dev/pytest/pull/15197">#15197 · Escape unencodable names in PYTEST_CURRENT_TEST</a> | Open |
 | root-project/root | <a href="https://github.com/root-project/root/pull/23747">#23747 · &#91;core&#93; Fix shell detection with multiline commands</a> | Open |

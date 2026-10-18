@@ -38,17 +38,17 @@
       "repository": "andorthehood/8f4e",
       "number": 1088,
       "title": "fix(wasm-codegen): preserve one-element array initializers",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/andorthehood/8f4e/pull/1088",
-      "updated_at": "2026-10-18T04:21:20Z"
+      "updated_at": "2026-10-18T15:30:24Z"
     },
     {
       "repository": "andorthehood/8f4e",
       "number": 1089,
       "title": "fix(tokenizer): preserve exponent signs in compile-time expressions",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/andorthehood/8f4e/pull/1089",
-      "updated_at": "2026-10-18T04:33:05Z"
+      "updated_at": "2026-10-18T15:54:42Z"
     },
     {
       "repository": "andorthehood/8f4e",
@@ -73,6 +73,22 @@
       "status": "Open",
       "url": "https://github.com/andorthehood/8f4e/pull/1093",
       "updated_at": "2026-10-18T08:47:18Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1100,
+      "title": "fix(stack-analyzer): validate localSet float widths",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1100",
+      "updated_at": "2026-10-18T16:26:34Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1101,
+      "title": "fix(semantic-utils): remove unused block depth cache",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1101",
+      "updated_at": "2026-10-18T16:34:17Z"
     },
     {
       "repository": "astral-sh/ruff",
@@ -184,7 +200,7 @@
       "title": "Use explicit LEF files without directory scanning",
       "status": "Open",
       "url": "https://github.com/KLayout/klayout/pull/2516",
-      "updated_at": "2026-10-18T00:11:03Z"
+      "updated_at": "2026-10-18T16:35:49Z"
     },
     {
       "repository": "langchain-ai/langchainjs",
@@ -262,9 +278,9 @@
       "repository": "prettier/prettier",
       "number": 20312,
       "title": "Keep method chains stable when the last argument expands",
-      "status": "Open",
+      "status": "Closed",
       "url": "https://github.com/prettier/prettier/pull/20312",
-      "updated_at": "2026-10-18T03:20:40Z"
+      "updated_at": "2026-10-18T13:41:17Z"
     },
     {
       "repository": "pyrite-wiki/pyrite",
@@ -312,7 +328,7 @@
       "title": "odb: avoid moved port names on buffered driver nets",
       "status": "Open",
       "url": "https://github.com/The-OpenROAD-Project/OpenROAD/pull/11815",
-      "updated_at": "2026-10-17T23:34:00Z"
+      "updated_at": "2026-10-18T15:44:51Z"
     },
     {
       "repository": "The-OpenROAD-Project/OpenROAD-flow-scripts",
@@ -340,7 +356,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "24423618760",
-    "created_at": "2026-10-18T04:27:11Z"
+    "id": "17540895773",
+    "created_at": "2026-10-18T16:34:17Z"
   }
 }
