@@ -37,7 +37,7 @@ jobs:
         run: python3 scripts/update_profile.py
       - name: Commit updated profile files
         run: |
-          git add -- README.md assets/contributions.svg assets/contributions-compact.svg data/contributions.json
+          git add -A -- README.md data/contributions.json assets/
           if git diff --cached --quiet; then
             echo "Profile is already current."
             exit 0

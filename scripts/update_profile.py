@@ -150,10 +150,15 @@ def stats_svg(totals, compact=False):
     return "\n".join(parts + ["</svg>\n"])
 
 
+def stat_image_paths(totals):
+    version = sha256(stats_svg(totals).encode("utf-8")).hexdigest()[:12]
+    return f"assets/contributions-{version}.svg", f"assets/contributions-compact-{version}.svg"
+
+
 def render_contributions(snapshot, config):
     records, username = snapshot["pull_requests"], config["username"]
     totals = summary(records)
-    image_version = sha256(stats_svg(totals).encode("utf-8")).hexdigest()[:12]
+    wide_image, compact_image = stat_image_paths(totals)
     alt = (f'{totals["total"]} public upstream PRs across {totals["repositories"]} repositories: '
            f'{totals["merged"]} merged, {totals["open"]} open, {totals["closed"]} closed without merging.')
     by_repo = defaultdict(list)
@@ -169,8 +174,8 @@ def render_contributions(snapshot, config):
     lines = [
         '<table>', '  <tr>', '    <td colspan="3">',
         '<picture>',
-        f'  <source media="(max-width: 600px)" srcset="./assets/contributions-compact.svg?v={image_version}">',
-        f'  <img src="./assets/contributions.svg?v={image_version}" width="100%" alt="{escape(alt, quote=True)}">',
+        f'  <source media="(max-width: 600px)" srcset="./{compact_image}">',
+        f'  <img src="./{wide_image}" width="100%" alt="{escape(alt, quote=True)}">',
         '</picture>', '    </td>', '  </tr>', '  <tr>',
     ]
     known = set()
@@ -239,15 +244,21 @@ def main():
     snapshot["pull_requests"].sort(key=lambda pr: (pr["repository"].casefold(), pr["number"]))
     readme = replace_section((ROOT / "README.md").read_text(encoding="utf-8"), render_contributions(snapshot, config))
     totals = summary(snapshot["pull_requests"])
+    wide_image, compact_image = stat_image_paths(totals)
     # Build and validate every output before writing. Failed runs never reach the commit step.
     outputs = {
         "README.md": readme,
-        "assets/contributions.svg": stats_svg(totals),
-        "assets/contributions-compact.svg": stats_svg(totals, compact=True),
+        wide_image: stats_svg(totals),
+        compact_image: stats_svg(totals, compact=True),
         "data/contributions.json": json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n",
     }
     for path, content in outputs.items():
         (ROOT / path).write_text(content, encoding="utf-8")
+    for old in (ROOT / "assets").glob("contributions*.svg"):
+        owned = (old.name in {"contributions.svg", "contributions-compact.svg"}
+                 or re.fullmatch(r"contributions-(?:compact-)?[0-9a-f]{12}\.svg", old.name))
+        if owned and old.relative_to(ROOT).as_posix() not in outputs:
+            old.unlink()
     print(json.dumps(totals, sort_keys=True))
 
 

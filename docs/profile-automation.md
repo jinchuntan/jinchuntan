@@ -33,6 +33,8 @@ The updater uses only Python's standard library. Actions supplies its temporary,
 repository-scoped `GITHUB_TOKEN`; no personal access token or external stats
 service is required. It commits only its four generated files, and only when
 their content changes. The displayed refresh date is recorded in UTC.
+Summary-image filenames include a content hash so GitHub cannot keep displaying
+an older set of totals. Only the current pair is retained; other artwork is preserved.
 
 For an offline preview, use:
 

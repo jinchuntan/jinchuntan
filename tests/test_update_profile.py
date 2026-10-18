@@ -163,6 +163,12 @@ class ProfileUpdaterTests(unittest.TestCase):
             numbers = {node.text for node in root.iter() if node.tag.endswith('text')}
             self.assertTrue({'41', '6', '35', '19'}.issubset(numbers))
 
+    def test_counter_changes_get_new_image_urls(self):
+        before = {'total': 41, 'merged': 6, 'open': 35, 'repositories': 19}
+        after = dict(before, merged=7, open=34)
+        self.assertNotEqual(profile.stat_image_paths(before), profile.stat_image_paths(after))
+        self.assertEqual(profile.stat_image_paths(before), profile.stat_image_paths(dict(before)))
+
 
 if __name__ == '__main__':
     unittest.main()
