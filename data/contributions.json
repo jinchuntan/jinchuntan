@@ -1,5 +1,334 @@
 {
   "username": "jinchuntan",
   "checked_on": "2026-10-18",
-  "pull_requests": []
+  "pull_requests": [
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1078,
+      "title": "fix(compiler): reject invalid array sizes",
+      "status": "Merged",
+      "url": "https://github.com/andorthehood/8f4e/pull/1078",
+      "updated_at": "2026-10-17T19:58:27Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1080,
+      "title": "fix(project-preparser): preserve note block content",
+      "status": "Merged",
+      "url": "https://github.com/andorthehood/8f4e/pull/1080",
+      "updated_at": "2026-10-17T13:20:27Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1082,
+      "title": "fix(tokenizer): invalidate cached ASTs after source edits",
+      "status": "Merged",
+      "url": "https://github.com/andorthehood/8f4e/pull/1082",
+      "updated_at": "2026-10-17T20:06:12Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1087,
+      "title": "fix(tokenizer): reject overflowing hexadecimal and binary literals",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1087",
+      "updated_at": "2026-10-18T04:08:09Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1088,
+      "title": "fix(wasm-codegen): preserve one-element array initializers",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1088",
+      "updated_at": "2026-10-18T04:21:20Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1089,
+      "title": "fix(tokenizer): preserve exponent signs in compile-time expressions",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1089",
+      "updated_at": "2026-10-18T04:33:05Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1090,
+      "title": "fix(memory-planner): preserve float64 array value types",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1090",
+      "updated_at": "2026-10-18T04:49:34Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1091,
+      "title": "fix(memory-reference-resolver): preserve float64 metadata bounds",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1091",
+      "updated_at": "2026-10-18T05:00:21Z"
+    },
+    {
+      "repository": "astral-sh/ruff",
+      "number": 29453,
+      "title": "[flake8-use-pathlib] Add an autofix for extension access (PTH122)",
+      "status": "Open",
+      "url": "https://github.com/astral-sh/ruff/pull/29453",
+      "updated_at": "2026-10-18T01:40:58Z"
+    },
+    {
+      "repository": "astral-sh/ruff",
+      "number": 29454,
+      "title": "[flake8-use-pathlib] Add an autofix for the last path component (PTH206)",
+      "status": "Open",
+      "url": "https://github.com/astral-sh/ruff/pull/29454",
+      "updated_at": "2026-10-18T01:58:51Z"
+    },
+    {
+      "repository": "ChristianHandy/FleetPilot",
+      "number": 110,
+      "title": "Add tests for the example Slack notification plugin",
+      "status": "Merged",
+      "url": "https://github.com/ChristianHandy/FleetPilot/pull/110",
+      "updated_at": "2026-10-17T20:29:17Z"
+    },
+    {
+      "repository": "ChristianHandy/FleetPilot",
+      "number": 111,
+      "title": "Add tests for scheduler settings and automatic updates",
+      "status": "Merged",
+      "url": "https://github.com/ChristianHandy/FleetPilot/pull/111",
+      "updated_at": "2026-10-17T20:30:20Z"
+    },
+    {
+      "repository": "huggingface/datasets",
+      "number": 8840,
+      "title": "Fix indices buffer loading in Dataset.from_buffer",
+      "status": "Open",
+      "url": "https://github.com/huggingface/datasets/pull/8840",
+      "updated_at": "2026-10-18T02:19:13Z"
+    },
+    {
+      "repository": "huggingface/datasets",
+      "number": 8841,
+      "title": "Handle UTF-8 BOMs in every JSON input file",
+      "status": "Open",
+      "url": "https://github.com/huggingface/datasets/pull/8841",
+      "updated_at": "2026-10-18T02:29:37Z"
+    },
+    {
+      "repository": "huggingface/datasets",
+      "number": 8842,
+      "title": "Include the config name when no data files are found",
+      "status": "Open",
+      "url": "https://github.com/huggingface/datasets/pull/8842",
+      "updated_at": "2026-10-18T02:42:13Z"
+    },
+    {
+      "repository": "huggingface/datasets",
+      "number": 8843,
+      "title": "Fix mask resizing in the semantic segmentation guide",
+      "status": "Open",
+      "url": "https://github.com/huggingface/datasets/pull/8843",
+      "updated_at": "2026-10-18T02:49:15Z"
+    },
+    {
+      "repository": "huggingface/datasets",
+      "number": 8844,
+      "title": "Warn once when resuming a shuffled dataset",
+      "status": "Open",
+      "url": "https://github.com/huggingface/datasets/pull/8844",
+      "updated_at": "2026-10-18T02:57:43Z"
+    },
+    {
+      "repository": "huggingface/datasets",
+      "number": 8845,
+      "title": "Copy existing tensors without a PyTorch warning",
+      "status": "Open",
+      "url": "https://github.com/huggingface/datasets/pull/8845",
+      "updated_at": "2026-10-18T03:28:57Z"
+    },
+    {
+      "repository": "huggingface/datasets",
+      "number": 8846,
+      "title": "Restore packaged type information and public re-exports",
+      "status": "Open",
+      "url": "https://github.com/huggingface/datasets/pull/8846",
+      "updated_at": "2026-10-18T03:29:34Z"
+    },
+    {
+      "repository": "huggingface/datasets",
+      "number": 8847,
+      "title": "Hide GPUs before spawning TensorFlow data workers",
+      "status": "Open",
+      "url": "https://github.com/huggingface/datasets/pull/8847",
+      "updated_at": "2026-10-18T03:30:11Z"
+    },
+    {
+      "repository": "huggingface/lerobot",
+      "number": 5004,
+      "title": "Add image size and JPEG quality controls to dataset viewer",
+      "status": "Open",
+      "url": "https://github.com/huggingface/lerobot/pull/5004",
+      "updated_at": "2026-10-18T00:27:49Z"
+    },
+    {
+      "repository": "KLayout/klayout",
+      "number": 2516,
+      "title": "Use explicit LEF files without directory scanning",
+      "status": "Open",
+      "url": "https://github.com/KLayout/klayout/pull/2516",
+      "updated_at": "2026-10-18T00:11:03Z"
+    },
+    {
+      "repository": "langchain-ai/langchainjs",
+      "number": 11972,
+      "title": "fix(openai): preserve request options when streaming",
+      "status": "Open",
+      "url": "https://github.com/langchain-ai/langchainjs/pull/11972",
+      "updated_at": "2026-10-18T01:07:31Z"
+    },
+    {
+      "repository": "langchain-ai/langchainjs",
+      "number": 11973,
+      "title": "fix(core): preserve routes and per-input errors in router batches",
+      "status": "Open",
+      "url": "https://github.com/langchain-ai/langchainjs/pull/11973",
+      "updated_at": "2026-10-18T01:27:42Z"
+    },
+    {
+      "repository": "langchain-ai/langchainjs",
+      "number": 11974,
+      "title": "fix(google-common): preserve anyOf tool schemas",
+      "status": "Open",
+      "url": "https://github.com/langchain-ai/langchainjs/pull/11974",
+      "updated_at": "2026-10-18T01:40:35Z"
+    },
+    {
+      "repository": "langchain-ai/langchainjs",
+      "number": 11975,
+      "title": "feat(mcp-adapters): support progress timeout resets",
+      "status": "Open",
+      "url": "https://github.com/langchain-ai/langchainjs/pull/11975",
+      "updated_at": "2026-10-18T02:01:45Z"
+    },
+    {
+      "repository": "librelane/librelane",
+      "number": 1053,
+      "title": "KLayout: make DEF layer map optional",
+      "status": "Open",
+      "url": "https://github.com/librelane/librelane/pull/1053",
+      "updated_at": "2026-10-17T23:20:33Z"
+    },
+    {
+      "repository": "ollama/ollama",
+      "number": 19096,
+      "title": "Handle servers that ignore download ranges",
+      "status": "Open",
+      "url": "https://github.com/ollama/ollama/pull/19096",
+      "updated_at": "2026-10-18T00:50:57Z"
+    },
+    {
+      "repository": "ollama/ollama",
+      "number": 19097,
+      "title": "Avoid reusing runners after cancelled startup",
+      "status": "Open",
+      "url": "https://github.com/ollama/ollama/pull/19097",
+      "updated_at": "2026-10-18T01:01:49Z"
+    },
+    {
+      "repository": "pandas-dev/pandas",
+      "number": 71269,
+      "title": "BUG preserve error bars when plot labels are changed",
+      "status": "Open",
+      "url": "https://github.com/pandas-dev/pandas/pull/71269",
+      "updated_at": "2026-10-18T01:24:19Z"
+    },
+    {
+      "repository": "piyush588/vibeCI",
+      "number": 14,
+      "title": "Add Bun test runner detection",
+      "status": "Merged",
+      "url": "https://github.com/piyush588/vibeCI/pull/14",
+      "updated_at": "2026-10-17T12:43:44Z"
+    },
+    {
+      "repository": "prettier/prettier",
+      "number": 20312,
+      "title": "Keep method chains stable when the last argument expands",
+      "status": "Open",
+      "url": "https://github.com/prettier/prettier/pull/20312",
+      "updated_at": "2026-10-18T03:20:40Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1007,
+      "title": "fix: use the package version in OpenAPI",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1007",
+      "updated_at": "2026-10-17T23:15:04Z"
+    },
+    {
+      "repository": "pytest-dev/pytest",
+      "number": 15197,
+      "title": "Escape unencodable names in PYTEST_CURRENT_TEST",
+      "status": "Open",
+      "url": "https://github.com/pytest-dev/pytest/pull/15197",
+      "updated_at": "2026-10-17T12:54:04Z"
+    },
+    {
+      "repository": "root-project/root",
+      "number": 23747,
+      "title": "[core] Fix shell detection with multiline commands",
+      "status": "Open",
+      "url": "https://github.com/root-project/root/pull/23747",
+      "updated_at": "2026-10-17T10:44:33Z"
+    },
+    {
+      "repository": "snakemake/snakemake",
+      "number": 4346,
+      "title": "docs: document the minimum Pixi version for contributors",
+      "status": "Open",
+      "url": "https://github.com/snakemake/snakemake/pull/4346",
+      "updated_at": "2026-10-17T11:23:26Z"
+    },
+    {
+      "repository": "The-OpenROAD-Project/OpenROAD",
+      "number": 11814,
+      "title": "odb: require matching layers for pin abutment",
+      "status": "Open",
+      "url": "https://github.com/The-OpenROAD-Project/OpenROAD/pull/11814",
+      "updated_at": "2026-10-17T23:36:47Z"
+    },
+    {
+      "repository": "The-OpenROAD-Project/OpenROAD",
+      "number": 11815,
+      "title": "odb: avoid moved port names on buffered driver nets",
+      "status": "Open",
+      "url": "https://github.com/The-OpenROAD-Project/OpenROAD/pull/11815",
+      "updated_at": "2026-10-17T23:34:00Z"
+    },
+    {
+      "repository": "The-OpenROAD-Project/OpenROAD-flow-scripts",
+      "number": 4695,
+      "title": "fix(report): classify metric generation errors as failures",
+      "status": "Open",
+      "url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4695",
+      "updated_at": "2026-10-17T19:06:23Z"
+    },
+    {
+      "repository": "The-OpenROAD-Project/OpenROAD-flow-scripts",
+      "number": 4696,
+      "title": "fix(drc): preserve violations in nested report categories",
+      "status": "Open",
+      "url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4696",
+      "updated_at": "2026-10-17T18:55:43Z"
+    },
+    {
+      "repository": "VLSIDA/OpenRAM",
+      "number": 329,
+      "title": "Load configuration files by path",
+      "status": "Open",
+      "url": "https://github.com/VLSIDA/OpenRAM/pull/329",
+      "updated_at": "2026-10-18T00:13:17Z"
+    }
+  ]
 }

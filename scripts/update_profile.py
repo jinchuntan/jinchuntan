@@ -230,6 +230,9 @@ def main():
     else:
         snapshot = {"username": username, "checked_on": datetime.now(timezone.utc).date().isoformat(),
                     "pull_requests": collect_pull_requests(username, user_node_id=config["user_node_id"])}
+    previous = json.loads((ROOT / "data/contributions.json").read_text(encoding="utf-8"))
+    if previous["pull_requests"] and not snapshot["pull_requests"]:
+        raise ValueError("Discovery returned no PRs; keeping the verified snapshot")
     validate_snapshot(snapshot, username)
     snapshot["pull_requests"].sort(key=lambda pr: (pr["repository"].casefold(), pr["number"]))
     readme = replace_section((ROOT / "README.md").read_text(encoding="utf-8"), render_contributions(snapshot, config))
