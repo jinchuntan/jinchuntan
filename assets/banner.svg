@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Nigel Tan — Signals to impact</title>
+  <desc id="desc">Warm paper, dark lettering and an original circuit illustration connecting a chip to a signal trace.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#c5cbbf" opacity=".55"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="#f6f3ea"/>
+    <rect x="638" width="562" height="300" fill="url(#grid)"/>
+    <path d="M0 299H1200" stroke="#d9d8cc" stroke-width="2"/>
+    <rect x="48" y="55" width="34" height="5" rx="2.5" fill="#d94f30"/>
+    <text x="48" y="153" fill="#19352f" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="82" letter-spacing="-3">Nigel Tan</text>
+    <text x="51" y="208" fill="#496257" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="-.5">Signals to impact.</text>
+    <g fill="none" stroke="#9bab9e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M702 102H655L634 81H601M702 126H659L638 147H606M702 174H662L637 199H605M702 198H677L646 229H619"/>
+      <path d="M750 63V38M774 63V27M798 63V38M822 63V27M846 63V38"/>
+      <path d="M750 237V262M774 237V276M798 237V262M822 237V276M846 237V262"/>
+      <path d="M894 102H943L967 78H1027M894 198H939L973 232H1054"/>
+    </g>
+    <rect x="703" y="63" width="190" height="174" rx="16" fill="#e9ece1" stroke="#19352f" stroke-width="3"/>
+    <rect x="727" y="87" width="142" height="126" rx="8" fill="#19352f"/>
+    <g fill="none" stroke="#6f9381" stroke-width="2">
+      <path d="M744 108H781V136H810V108H849M744 190H775V161H819V190H849"/>
+      <path d="M744 150H758M837 150H851"/>
+    </g>
+    <rect x="785" y="138" width="27" height="24" rx="4" fill="#e06542"/>
+    <path d="M894 150H949L966 124L984 174L1001 138L1016 150H1153" fill="none" stroke="#d94f30" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#f6f3ea" stroke="#9bab9e" stroke-width="2.5">
+      <circle cx="601" cy="81" r="4"/><circle cx="606" cy="147" r="4"/><circle cx="605" cy="199" r="4"/><circle cx="619" cy="229" r="4"/>
+      <circle cx="1027" cy="78" r="4"/><circle cx="1054" cy="232" r="4"/>
+    </g>
+    <circle cx="1153" cy="150" r="5" fill="#d94f30"/>
+  </g>
+</svg>

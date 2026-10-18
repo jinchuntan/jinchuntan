@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="144" viewBox="0 0 540 144" role="img" aria-labelledby="title desc">
+  <title id="title">Quipus / Fovea</title>
+  <desc id="desc">Decorative compact recording device and conversation waveform illustration.</desc>
+  <rect width="540" height="144" rx="10" fill="#f5ece3"/>
+  <g stroke="#e4d9cc" fill="none"><path d="M216 40H496M216 72H496M216 104H496"/><rect x="58" y="24" width="96" height="96" rx="24" fill="#e8dfd2" stroke="none"/></g>
+  <rect x="65" y="19" width="96" height="96" rx="24" fill="#f9f5ec" stroke="#47584e" stroke-width="2.5"/>
+  <rect x="81" y="35" width="64" height="42" rx="9" fill="#19352f"/>
+  <path d="M91 56H98L102 48L108 65L113 53L118 58H135" fill="none" stroke="#b3caaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="113" cy="94" r="5" fill="#d94f30"/>
+  <g stroke="#b76647" stroke-width="4" stroke-linecap="round">
+    <path d="M226 66V78M239 58V86M252 45V99M265 56V88M278 63V81M291 51V93M304 38V106M317 49V95M330 60V84M343 65V79M356 54V90M369 43V101M382 57V87M395 62V82M408 51V93M421 58V86M434 65V79M447 60V84M460 66V78M473 68V76"/>
+  </g>
+</svg>

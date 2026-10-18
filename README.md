@@ -1,41 +1,41 @@
-# Hi, I'm Nigel 👋
+<img src="./assets/banner.svg" width="100%" alt="Nigel Tan — Signals to impact. An original circuit illustration connects a chip to a signal trace.">
 
-I'm **Tan Jin Chun (Nigel)**, a **Physical Design Engineer** and **Agora Ambassador**
+<p align="center">
+  <a href="https://tanjinchun.com/">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/tanjinchun/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:nigeltanjc@gmail.com">Email</a>
+</p>
 
-My work brings together semiconductor engineering, software automation, and applied machine learning. I enjoy building tools that make engineering workflows easier to manage and turn data into useful decisions.
+I'm **Tan Jin Chun (Nigel)**, a physical design engineer in Kuala Lumpur. I build tools for chip-design workflows and research uncertainty-aware monitoring.
 
-## What I'm working on
+### Open source
 
-- **Semiconductor physical design and power integrity** — working on chip implementation and analysis, alongside Python and Tcl tools for engineering workflows.
-- **Uncertainty-aware monitoring** — researching how forecasting and conformal prediction can improve the reliability of smart-building alerts, with attention to fault detection, alert workload, and detection delay.
-- **Engineering dashboards** — developing tools to organise APR and static timing analysis metrics into consistent reports and dashboards.
-- **Embedded prototyping** — developing **Quipus**, a Fovea-branded hardware prototype exploring recording, local storage, and Wi-Fi connectivity.
+<!-- PR states checked on 2026-10-18. Each link leads to the upstream contribution. -->
+| Project | What I contributed | Pull request |
+| :--- | :--- | :--- |
+| **OpenROAD** | Check metal layers when detecting pin connections | [Open · #11814](https://github.com/The-OpenROAD-Project/OpenROAD/pull/11814) |
+| **LangChain.js** | Preserve routes and per-input errors in router batches | [Open · #11973](https://github.com/langchain-ai/langchainjs/pull/11973) |
+| **Hugging Face Datasets** | Restore packaged Python type information | [Open · #8846](https://github.com/huggingface/datasets/pull/8846) |
+| **8f4e** | Invalidate cached syntax trees after source edits | [Merged · #1082](https://github.com/andorthehood/8f4e/pull/1082) |
+| **FleetPilot** | Test scheduler settings and automatic updates | [Merged · #111](https://github.com/ChristianHandy/FleetPilot/pull/111) |
 
-## Selected projects
+[More contributions ↗](https://github.com/search?q=author%3Ajinchuntan+is%3Apr+-user%3Ajinchuntan&type=pullrequests)
 
-### [ConfoSense](https://github.com/jinchuntan/confosense)
-My master's research codebase for uncertainty-aware smart-building monitoring and alerting. It connects time-series forecasting, conformal prediction, and alert generation, then evaluates detection performance, alert burden, robustness, and recalibration under a common experimental protocol.
+### Building & researching
 
-### [Fovea / Quipus](https://fovea.space/)
-An ongoing hardware prototype project connecting embedded development with a compact recording device.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jinchuntan/confosense"><img src="./assets/confosense.svg" width="100%" alt="ConfoSense: an illustrated forecast with a surrounding uncertainty band."></a>
+      <br><strong><a href="https://github.com/jinchuntan/confosense">ConfoSense</a></strong><br>
+      Forecasting, conformal prediction and smarter building alerts. My master's research.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jinchuntan/quipus"><img src="./assets/quipus.svg" width="100%" alt="Quipus: an illustrated compact device beside a conversation waveform."></a>
+      <br><strong><a href="https://github.com/jinchuntan/quipus">Quipus / Fovea</a></strong><br>
+      A prototype exploring conversation memory, follow-ups and compact recording hardware.
+    </td>
+  </tr>
+</table>
 
-## Tools and interests
-
-- **Programming and automation:** Python, Tcl, C
-- **Semiconductor engineering:** physical design, power integrity, static timing analysis, Cadence Innovus and Voltus
-- **Applied machine learning:** time-series forecasting, XGBoost, LSTM models, conformal prediction, and reproducible evaluation
-- **Embedded systems:** ESP32 prototyping and IoT
-
-My technical background includes Electrical and Computer Systems Engineering at Monash University Malaysia and coding projects at 42KL.
-
-## Beyond engineering
-
-- **Industry Advisory Panel member** for Semiconductor Systems Engineering at Monash University Malaysia.
-- **Agora Ambassador** and **Aspire Institute volunteer**, supporting learning and community initiatives.
-- **PMI IGNITE 2026 Young Project Manager Award finalist** for the *Hybrid Solar Lighting System* project.
-
-I'm interested in collaborating on engineering automation, reliable IoT systems, and practical machine-learning applications.
-
-## Connect
-
-[Website](https://tanjinchun.me/) · [LinkedIn](https://www.linkedin.com/in/tanjinchun/) · [Email](mailto:nigeltanjc@gmail.com) · [ORCID](https://orcid.org/0009-0000-6850-8570) · [Credly](https://www.credly.com/users/tanjinchun)
+<sub>Working with Python · Tcl · C/C++ · TypeScript · ESP32</sub>
