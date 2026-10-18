@@ -30,9 +30,9 @@
       "repository": "andorthehood/8f4e",
       "number": 1087,
       "title": "fix(tokenizer): reject overflowing hexadecimal and binary literals",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/andorthehood/8f4e/pull/1087",
-      "updated_at": "2026-10-18T04:08:09Z"
+      "updated_at": "2026-10-18T07:45:30Z"
     },
     {
       "repository": "andorthehood/8f4e",
@@ -65,6 +65,14 @@
       "status": "Open",
       "url": "https://github.com/andorthehood/8f4e/pull/1091",
       "updated_at": "2026-10-18T05:00:21Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1093,
+      "title": "fix(tokenizer): reject non-ASCII entity names",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1093",
+      "updated_at": "2026-10-18T08:47:18Z"
     },
     {
       "repository": "astral-sh/ruff",
@@ -332,7 +340,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "17516796474",
-    "created_at": "2026-10-18T06:04:27Z"
+    "id": "24423618760",
+    "created_at": "2026-10-18T04:27:11Z"
   }
 }

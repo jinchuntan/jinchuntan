@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-bdbd38cc07e4.svg">
-  <img src="./assets/contributions-bdbd38cc07e4.svg" width="100%" alt="41 public upstream PRs across 19 repositories: 6 merged, 35 open, 0 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-1c6c41f5d8d5.svg">
+  <img src="./assets/contributions-1c6c41f5d8d5.svg" width="100%" alt="42 public upstream PRs across 19 repositories: 7 merged, 35 open, 0 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -102,7 +102,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aprettier%2Fprettier&amp;type=pullrequests">Prettier</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apytest-dev%2Fpytest&amp;type=pullrequests">pytest</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a> <sub>1 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>3 merged · 5 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>4 merged · 5 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 open</sub>
@@ -111,15 +111,16 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <details>
-<summary><strong>Explore all 41 pull requests</strong></summary>
+<summary><strong>Explore all 42 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1093">#1093 · fix(tokenizer): reject non-ASCII entity names</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1091">#1091 · fix(memory-reference-resolver): preserve float64 metadata bounds</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1090">#1090 · fix(memory-planner): preserve float64 array value types</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1089">#1089 · fix(tokenizer): preserve exponent signs in compile-time expressions</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1088">#1088 · fix(wasm-codegen): preserve one-element array initializers</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1087">#1087 · fix(tokenizer): reject overflowing hexadecimal and binary literals</a> | Open |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1087">#1087 · fix(tokenizer): reject overflowing hexadecimal and binary literals</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1082">#1082 · fix(tokenizer): invalidate cached ASTs after source edits</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1080">#1080 · fix(project-preparser): preserve note block content</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1078">#1078 · fix(compiler): reject invalid array sizes</a> | Merged |
