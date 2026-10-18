@@ -330,5 +330,9 @@
       "url": "https://github.com/VLSIDA/OpenRAM/pull/329",
       "updated_at": "2026-10-18T00:13:17Z"
     }
-  ]
+  ],
+  "event_checkpoint": {
+    "id": "24392927208",
+    "created_at": "2026-10-17T10:16:18Z"
+  }
 }

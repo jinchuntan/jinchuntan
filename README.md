@@ -18,39 +18,39 @@ I'm **Tan Jin Chun (Nigel)**, a physical design engineer in Kuala Lumpur. I buil
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact.svg">
-  <img src="./assets/contributions.svg" width="100%" alt="41 public upstream PRs across 19 repositories: 6 merged, 35 open, 0 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact.svg?v=bdbd38cc07e4">
+  <img src="./assets/contributions.svg?v=bdbd38cc07e4" width="100%" alt="41 public upstream PRs across 19 repositories: 6 merged, 35 open, 0 closed without merging.">
 </picture>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
       <h4>IC design</h4>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a><br><sub>2 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD-flow-scripts&amp;type=pullrequests">OpenROAD flow scripts</a><br><sub>2 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AKLayout%2Fklayout&amp;type=pullrequests">KLayout</a><br><sub>1 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a><br><sub>1 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alibrelane%2Flibrelane&amp;type=pullrequests">LibreLane</a><br><sub>1 open</sub>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>2 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD-flow-scripts&amp;type=pullrequests">OpenROAD flow scripts</a> <sub>2 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AKLayout%2Fklayout&amp;type=pullrequests">KLayout</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alibrelane%2Flibrelane&amp;type=pullrequests">LibreLane</a> <sub>1 open</sub>
     </td>
     <td width="33%" valign="top">
       <h4>AI &amp; data</h4>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alangchain-ai%2Flangchainjs&amp;type=pullrequests">LangChain.js</a><br><sub>4 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahuggingface%2Fdatasets&amp;type=pullrequests">Hugging Face Datasets</a><br><sub>8 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahuggingface%2Flerobot&amp;type=pullrequests">LeRobot</a><br><sub>1 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aollama%2Follama&amp;type=pullrequests">Ollama</a><br><sub>2 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apandas-dev%2Fpandas&amp;type=pullrequests">pandas</a><br><sub>1 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aroot-project%2Froot&amp;type=pullrequests">ROOT</a><br><sub>1 open</sub>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alangchain-ai%2Flangchainjs&amp;type=pullrequests">LangChain.js</a> <sub>4 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahuggingface%2Fdatasets&amp;type=pullrequests">Hugging Face Datasets</a> <sub>8 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahuggingface%2Flerobot&amp;type=pullrequests">LeRobot</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aollama%2Follama&amp;type=pullrequests">Ollama</a> <sub>2 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apandas-dev%2Fpandas&amp;type=pullrequests">pandas</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aroot-project%2Froot&amp;type=pullrequests">ROOT</a> <sub>1 open</sub>
     </td>
     <td width="33%" valign="top">
       <h4>Developer tools</h4>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aastral-sh%2Fruff&amp;type=pullrequests">Ruff</a><br><sub>2 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aprettier%2Fprettier&amp;type=pullrequests">Prettier</a><br><sub>1 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apytest-dev%2Fpytest&amp;type=pullrequests">pytest</a><br><sub>1 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a><br><sub>1 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a><br><sub>3 merged · 5 open</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a><br><sub>2 merged</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a><br><sub>1 merged</sub><br><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a><br><sub>1 open</sub>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aastral-sh%2Fruff&amp;type=pullrequests">Ruff</a> <sub>2 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aprettier%2Fprettier&amp;type=pullrequests">Prettier</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apytest-dev%2Fpytest&amp;type=pullrequests">pytest</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>3 merged · 5 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 open</sub>
     </td>
   </tr>
 </table>

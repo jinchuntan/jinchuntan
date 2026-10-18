@@ -3,8 +3,10 @@
 
 import argparse
 from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timezone
 from html import escape
+from hashlib import sha256
 import json
 import os
 from pathlib import Path
@@ -19,87 +21,84 @@ REPO = re.compile(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+")
 STATUSES = {"Merged", "Open", "Closed"}
 
 
-QUERY = """
-query ProfilePullRequests($userId: ID!, $after: String) {
-  node(id: $userId) {
-    ... on User {
-      login
-      pullRequests(first: 100, after: $after, orderBy: {field: CREATED_AT, direction: ASC}) {
-        totalCount
-        pageInfo { hasNextPage endCursor }
-        nodes {
-          number title url state mergedAt updatedAt
-          author { login }
-          repository { nameWithOwner visibility owner { login } }
-        }
-      }
-    }
-  }
-}
-"""
-
-
-def github_graphql(variables):
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        raise ValueError("GITHUB_TOKEN is needed for a live refresh; use --from-snapshot for an offline preview")
-    request = Request(
-        "https://api.github.com/graphql",
-        data=json.dumps({"query": QUERY, "variables": variables}).encode("utf-8"),
-        headers={"Accept": "application/vnd.github+json", "Content-Type": "application/json",
-                 "User-Agent": "jinchuntan-profile", "Authorization": f"Bearer {token}"},
-    )
+def github_json(path):
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": "jinchuntan-profile"}
+    if token := os.environ.get("GITHUB_TOKEN"):
+        headers["Authorization"] = f"Bearer {token}"
+    request = Request("https://api.github.com" + path, headers=headers)
     with urlopen(request, timeout=30) as response:
         return json.load(response)
 
 
-def collect_pull_requests(username, get_graphql=github_graphql, user_node_id="MDQ6VXNlcjc5MTQwNjIw"):
-    """Read the user's PR connection directly, without relying on author search."""
-    records = []
-    cursor = None
-    cursors = set()
-    total = None
-    fetched = 0
-    while True:
-        result = get_graphql({"userId": user_node_id, "after": cursor})
-        if result.get("errors"):
-            raise ValueError("GitHub GraphQL returned errors; keeping the previous snapshot")
-        user = result.get("data", {}).get("node")
-        if not user or user.get("login", "").casefold() != username.casefold():
-            raise ValueError("GitHub did not return the expected profile owner")
-        connection = user["pullRequests"]
-        if total is not None and connection["totalCount"] != total:
-            raise ValueError("PR count changed during pagination; try again")
-        total = connection["totalCount"]
-        for pr in connection["nodes"]:
-            if not pr:
-                raise ValueError("GitHub returned a partial PR connection")
-            fetched += 1
-            repo = pr["repository"]
-            if (repo["visibility"] != "PUBLIC"
-                    or repo["owner"]["login"].casefold() == username.casefold()):
-                continue
-            if not pr["author"] or pr["author"]["login"].casefold() != username.casefold():
-                raise ValueError("Unexpected PR author")
-            if pr["state"] not in {"OPEN", "CLOSED", "MERGED"}:
-                raise ValueError("Unknown PR state")
-            if (pr["state"] == "MERGED") != bool(pr["mergedAt"]):
-                raise ValueError("Inconsistent PR merge information")
-            records.append({
-                "repository": repo["nameWithOwner"], "number": pr["number"], "title": pr["title"],
-                "status": {"OPEN": "Open", "MERGED": "Merged", "CLOSED": "Closed"}[pr["state"]],
-                "url": pr["url"], "updated_at": pr["updatedAt"],
-            })
-        page = connection["pageInfo"]
-        if not page["hasNextPage"]:
+def collect_pull_requests(username, previous, get_json=github_json):
+    """Discover public PR events and recheck every saved PR directly."""
+    known = {(pr["repository"], pr["number"]) for pr in previous["pull_requests"]}
+    candidates = set(known)
+    events = []
+    for page in range(1, 4):
+        batch = get_json(f"/users/{username}/events/public?per_page=100&page={page}")
+        if not isinstance(batch, list):
+            raise ValueError("GitHub did not return a public event list")
+        events.extend(batch)
+        if len(batch) < 100:
             break
-        cursor = page["endCursor"]
-        if not cursor or cursor in cursors or not connection["nodes"]:
-            raise ValueError("Invalid pagination cursor")
-        cursors.add(cursor)
-    if fetched != total:
-        raise ValueError("PR connection count does not match its pages")
-    return records
+    checkpoint = previous.get("event_checkpoint")
+    # GitHub retains at most 300 public events. Never silently skip an unseen gap.
+    if (len(events) == 300 and checkpoint
+            and events[-1]["created_at"] > checkpoint["created_at"]):
+        raise ValueError("Public event history has a gap; keeping the verified snapshot")
+    for event in events:
+        if not event.get("public") or event["actor"]["login"].casefold() != username.casefold():
+            continue
+        payload = event["payload"]
+        number = None
+        if event["type"] == "PullRequestEvent":
+            number = payload.get("number") or payload.get("pull_request", {}).get("number")
+        elif event["type"] == "IssueCommentEvent" and payload.get("issue", {}).get("pull_request"):
+            number = payload["issue"]["number"]
+        if number is None:
+            continue
+        repo = event["repo"]["name"]
+        if not REPO.fullmatch(repo) or type(number) is not int or number < 1:
+            raise ValueError("Invalid public PR event")
+        if repo.split("/")[0].casefold() != username.casefold():
+            candidates.add((repo, number))
+
+    def fetch_pr(identity):
+        repo, number = identity
+        pr = get_json(f"/repos/{repo}/pulls/{number}")
+        target = pr["base"]["repo"]
+        if target.get("private") is not False or target.get("visibility", "public") != "public":
+            return None
+        if pr["user"]["login"].casefold() != username.casefold():
+            if identity in known:
+                raise ValueError("A saved PR no longer has the expected author")
+            return None
+        repository = target["full_name"]
+        if repository.split("/")[0].casefold() == username.casefold():
+            return None
+        if pr["state"] not in {"open", "closed"}:
+            raise ValueError("Unknown PR state")
+        merged = bool(pr["merged_at"])
+        if merged != pr["merged"] or (merged and pr["state"] != "closed"):
+            raise ValueError("Inconsistent PR merge information")
+        return {
+            "repository": repository, "number": pr["number"], "title": pr["title"],
+            "status": "Merged" if merged else "Open" if pr["state"] == "open" else "Closed",
+            "url": pr["html_url"], "updated_at": pr["updated_at"],
+        }
+
+    print(f"Read {len(events)} public events; checking {len(candidates)} PRs directly.", flush=True)
+    executor = ThreadPoolExecutor(max_workers=4)
+    try:
+        records = [pr for pr in executor.map(fetch_pr, sorted(candidates)) if pr is not None]
+    finally:
+        executor.shutdown(wait=True, cancel_futures=True)
+    if previous["pull_requests"] and not records:
+        raise ValueError("Refresh returned no PRs; keeping the verified snapshot")
+    if events:
+        checkpoint = {"id": events[0]["id"], "created_at": events[0]["created_at"]}
+    return records, checkpoint
 
 
 def validate_snapshot(snapshot, username):
@@ -154,6 +153,7 @@ def stats_svg(totals, compact=False):
 def render_contributions(snapshot, config):
     records, username = snapshot["pull_requests"], config["username"]
     totals = summary(records)
+    image_version = sha256(stats_svg(totals).encode("utf-8")).hexdigest()[:12]
     alt = (f'{totals["total"]} public upstream PRs across {totals["repositories"]} repositories: '
            f'{totals["merged"]} merged, {totals["open"]} open, {totals["closed"]} closed without merging.')
     by_repo = defaultdict(list)
@@ -164,13 +164,13 @@ def render_contributions(snapshot, config):
         counts = Counter(pr["status"] for pr in by_repo[repo])
         state = " · ".join(f'{counts[s]} {s.lower()}' for s in ("Merged", "Open", "Closed") if counts[s])
         link = escape(search_url(username, repo), quote=True)
-        return f'<a href="{link}">{escape(label)}</a><br><sub>{state}</sub>'
+        return f'<a href="{link}">{escape(label)}</a> <sub>{state}</sub>'
 
     lines = [
         '<table>', '  <tr>', '    <td colspan="3">',
         '<picture>',
-        '  <source media="(max-width: 600px)" srcset="./assets/contributions-compact.svg">',
-        f'  <img src="./assets/contributions.svg" width="100%" alt="{escape(alt, quote=True)}">',
+        f'  <source media="(max-width: 600px)" srcset="./assets/contributions-compact.svg?v={image_version}">',
+        f'  <img src="./assets/contributions.svg?v={image_version}" width="100%" alt="{escape(alt, quote=True)}">',
         '</picture>', '    </td>', '  </tr>', '  <tr>',
     ]
     known = set()
@@ -182,7 +182,7 @@ def render_contributions(snapshot, config):
             known.add(repo)
             if repo in by_repo:
                 entries.append(repo_line(repo, label))
-        lines.append("      " + "<br><br>\n      ".join(entries))
+        lines.append("      " + "<br>\n      ".join(entries))
         lines.append("    </td>")
     lines.extend(['  </tr>', '</table>', ''])
     unknown = sorted(set(by_repo) - known, key=str.casefold)
@@ -225,14 +225,16 @@ def main():
     username = config["username"]
     if not re.fullmatch(r"[A-Za-z0-9-]+", username):
         raise ValueError("Invalid GitHub username")
+    previous = json.loads((ROOT / "data/contributions.json").read_text(encoding="utf-8"))
+    validate_snapshot(previous, username)
     if args.from_snapshot:
         snapshot = json.loads(args.from_snapshot.read_text(encoding="utf-8"))
     else:
+        records, checkpoint = collect_pull_requests(username, previous)
         snapshot = {"username": username, "checked_on": datetime.now(timezone.utc).date().isoformat(),
-                    "pull_requests": collect_pull_requests(username, user_node_id=config["user_node_id"])}
-    previous = json.loads((ROOT / "data/contributions.json").read_text(encoding="utf-8"))
+                    "pull_requests": records, "event_checkpoint": checkpoint}
     if previous["pull_requests"] and not snapshot["pull_requests"]:
-        raise ValueError("Discovery returned no PRs; keeping the verified snapshot")
+        raise ValueError("Refresh returned no PRs; keeping the verified snapshot")
     validate_snapshot(snapshot, username)
     snapshot["pull_requests"].sort(key=lambda pr: (pr["repository"].casefold(), pr["number"]))
     readme = replace_section((ROOT / "README.md").read_text(encoding="utf-8"), render_contributions(snapshot, config))
