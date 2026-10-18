@@ -38,11 +38,11 @@ I'm **Tan Jin Chun (Nigel)**, a physical design engineer in Kuala Lumpur. I buil
       <a href="https://github.com/jinchuntan/kintsuginotes">Code</a> · <a href="https://kintsuginotes.vercel.app/">Demo</a> · <a href="https://devpost.com/software/kintsugi-notes-ynkma0">Award</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/jinchuntan/persephone"><img src="./assets/persephone.svg" width="100%" alt="Persephone: an original illustration of a wearable event badge and a voice waveform."></a>
-      <br><strong><a href="https://github.com/jinchuntan/persephone">Persephone</a></strong><br>
+      <a href="https://github.com/jinchuntan/whisp"><img src="./assets/persephone.svg" width="100%" alt="Persephone: an original illustration of a wearable event badge and a voice waveform."></a>
+      <br><strong><a href="https://github.com/jinchuntan/whisp">Persephone</a></strong><br>
       <sub><strong>Top 5 finalist · Robotics &amp; Physical AI</strong> · Agentic AI Build Week</sub><br><br>
-      A wearable event assistant. Public design notes and a related voice Q&amp;A backend.<br><br>
-      <a href="https://github.com/jinchuntan/persephone">Design notes</a> · <a href="https://github.com/jinchuntan/whisp-voice-qa">Q&amp;A backend</a> · <a href="https://www.fovea.space/#recognition">Recognition</a>
+      An ESP32 voice badge that turns audience questions into a shared Q&amp;A feed.<br><br>
+      <a href="https://github.com/jinchuntan/whisp">Code &amp; firmware</a> · <a href="https://github.com/jinchuntan/whisp/blob/main/docs/ARCHITECTURE.md">Architecture</a> · <a href="https://www.fovea.space/#recognition">Recognition</a>
     </td>
   </tr>
 </table>
@@ -57,7 +57,7 @@ Research: [ConfoSense](https://github.com/jinchuntan/confosense) — forecasting
 | Project | Highlight | Explore |
 | :--- | :--- | :--- |
 | Presence Postcard | 1st place · AR Track, Pacific Portal XR 2026 | [Project overview](https://www.fovea.space/#recognition) |
-| Purrmit | Top 3 finalist · Lovable Healthcare Operations | [Demo](https://purrmit.lovable.app/) |
+| Purrmit | Top 3 finalist · Lovable Healthcare Operations | [Code](https://github.com/jinchuntan/purrmit) · [Demo](https://purrmit.lovable.app/) |
 | Quipus | Conversation memory and compact recording hardware | [Code](https://github.com/jinchuntan/quipus) |
 | RoomLab | Multiplayer spatial learning prototype | [Code](https://github.com/jinchuntan/RoomLab) |
 
