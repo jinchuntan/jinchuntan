@@ -139,6 +139,22 @@ I'm **Tan Jin Chun (Nigel)**, a physical design engineer in Kuala Lumpur. I buil
 
 Also: [GotongFlow](https://github.com/jinchuntan/gotongflow) · [OCI field tools](https://github.com/jinchuntan?tab=repositories&q=oci-)
 
+## Featured in
+
+<table>
+  <tr>
+    <td width="38%" valign="middle">
+      <img src="./assets/hybrid-solar.svg" width="100%" alt="An original illustration of sunshine, a solar panel and a home.">
+    </td>
+    <td width="62%" valign="middle">
+      <strong>Hybrid Solar Lighting System</strong><br>
+      Modular lighting powered by solar energy.<br><br>
+      <a href="https://springwise.com/climate-change/concept-for-hybrid-lighting-solar-system-could-power-houses/"><strong>Springwise ↗</strong></a> · Innovation feature<br>
+      <a href="https://sdg7youth.org/yseh/hybrid-solar-lighting-system/"><strong>SDG7 Youth ↗</strong></a> · Project spotlight
+    </td>
+  </tr>
+</table>
+
 ## Toolkit
 
 | Focus | Tools & interests |

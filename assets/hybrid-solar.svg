@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="270" viewBox="0 0 540 270" role="img" aria-labelledby="title desc">
+  <title id="title">Hybrid Solar Lighting System</title>
+  <desc id="desc">An original decorative illustration of sunlight, a solar panel and a house. This is not a photograph or a technical diagram of the prototype.</desc>
+  <rect width="540" height="270" rx="10" fill="#f2eee2"/>
+  <path d="M44 224H496" stroke="#c9d0bf" stroke-width="2" stroke-linecap="round"/>
+  <g fill="none" stroke="#d94f30" stroke-width="3" stroke-linecap="round">
+    <path d="M113 34V23M113 123V112M69 78H58M168 78H157M82 47L74 39M152 117L144 109M144 47L152 39M74 117L82 109"/>
+  </g>
+  <circle cx="113" cy="78" r="26" fill="#d94f30"/>
+  <g fill="none" stroke="#c6ad72" stroke-width="2" stroke-dasharray="5 7" stroke-linecap="round">
+    <path d="M149 100L219 151M143 111L198 153"/>
+  </g>
+  <path d="M297 127L376 70L455 127" fill="none" stroke="#496257" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M311 125V224H441V125" fill="#f9f6ed" stroke="#496257" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="365" y="165" width="36" height="59" rx="3" fill="#d8dfc9" stroke="#496257" stroke-width="2"/>
+  <rect x="326" y="148" width="24" height="28" rx="3" fill="#e7cc8c"/>
+  <rect x="407" y="148" width="20" height="28" rx="3" fill="#e7cc8c"/>
+  <circle cx="391" cy="195" r="2" fill="#496257"/>
+  <path d="M166 159L248 159L272 204H142Z" fill="#19352f" stroke="#19352f" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="none" stroke="#7c9c83" stroke-width="2">
+    <path d="M193 159L185 204M221 159L229 204M157 180H258"/>
+    <path d="M178 205V224M237 205V224" stroke="#496257" stroke-width="3"/>
+  </g>
+  <path d="M273 196H290V210H311" fill="none" stroke="#70977e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="290" cy="196" r="4" fill="#d94f30"/>
+</svg>
