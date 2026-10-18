@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-d880e401cadf.svg">
-  <img src="./assets/contributions-d880e401cadf.svg" width="100%" alt="44 public upstream PRs across 19 repositories: 9 merged, 34 open, 1 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-da3a0a69be2a.svg">
+  <img src="./assets/contributions-da3a0a69be2a.svg" width="100%" alt="44 public upstream PRs across 19 repositories: 9 merged, 33 open, 2 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -83,7 +83,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <h4>IC design</h4>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>2 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD-flow-scripts&amp;type=pullrequests">OpenROAD flow scripts</a> <sub>2 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AKLayout%2Fklayout&amp;type=pullrequests">KLayout</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AKLayout%2Fklayout&amp;type=pullrequests">KLayout</a> <sub>1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alibrelane%2Flibrelane&amp;type=pullrequests">LibreLane</a> <sub>1 open</sub>
     </td>
@@ -139,7 +139,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8841">#8841 · Handle UTF-8 BOMs in every JSON input file</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8840">#8840 · Fix indices buffer loading in Dataset.from_buffer</a> | Open |
 | huggingface/lerobot | <a href="https://github.com/huggingface/lerobot/pull/5004">#5004 · Add image size and JPEG quality controls to dataset viewer</a> | Open |
-| KLayout/klayout | <a href="https://github.com/KLayout/klayout/pull/2516">#2516 · Use explicit LEF files without directory scanning</a> | Open |
+| KLayout/klayout | <a href="https://github.com/KLayout/klayout/pull/2516">#2516 · Use explicit LEF files without directory scanning</a> | Closed |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11975">#11975 · feat(mcp-adapters): support progress timeout resets</a> | Open |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11974">#11974 · fix(google-common): preserve anyOf tool schemas</a> | Open |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11973">#11973 · fix(core): preserve routes and per-input errors in router batches</a> | Open |

@@ -56,7 +56,7 @@
       "title": "fix(memory-planner): preserve float64 array value types",
       "status": "Open",
       "url": "https://github.com/andorthehood/8f4e/pull/1090",
-      "updated_at": "2026-10-18T04:49:34Z"
+      "updated_at": "2026-10-18T17:26:09Z"
     },
     {
       "repository": "andorthehood/8f4e",
@@ -64,7 +64,7 @@
       "title": "fix(memory-reference-resolver): preserve float64 metadata bounds",
       "status": "Open",
       "url": "https://github.com/andorthehood/8f4e/pull/1091",
-      "updated_at": "2026-10-18T05:00:21Z"
+      "updated_at": "2026-10-18T17:26:09Z"
     },
     {
       "repository": "andorthehood/8f4e",
@@ -72,7 +72,7 @@
       "title": "fix(tokenizer): reject non-ASCII entity names",
       "status": "Open",
       "url": "https://github.com/andorthehood/8f4e/pull/1093",
-      "updated_at": "2026-10-18T08:47:18Z"
+      "updated_at": "2026-10-18T17:26:09Z"
     },
     {
       "repository": "andorthehood/8f4e",
@@ -80,7 +80,7 @@
       "title": "fix(stack-analyzer): validate localSet float widths",
       "status": "Open",
       "url": "https://github.com/andorthehood/8f4e/pull/1100",
-      "updated_at": "2026-10-18T16:26:34Z"
+      "updated_at": "2026-10-18T17:26:09Z"
     },
     {
       "repository": "andorthehood/8f4e",
@@ -88,7 +88,7 @@
       "title": "fix(semantic-utils): remove unused block depth cache",
       "status": "Open",
       "url": "https://github.com/andorthehood/8f4e/pull/1101",
-      "updated_at": "2026-10-18T16:34:17Z"
+      "updated_at": "2026-10-18T17:26:09Z"
     },
     {
       "repository": "astral-sh/ruff",
@@ -198,9 +198,9 @@
       "repository": "KLayout/klayout",
       "number": 2516,
       "title": "Use explicit LEF files without directory scanning",
-      "status": "Open",
+      "status": "Closed",
       "url": "https://github.com/KLayout/klayout/pull/2516",
-      "updated_at": "2026-10-18T16:35:49Z"
+      "updated_at": "2026-10-18T16:49:33Z"
     },
     {
       "repository": "langchain-ai/langchainjs",
@@ -356,7 +356,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "17540895773",
-    "created_at": "2026-10-18T16:34:17Z"
+    "id": "24462380657",
+    "created_at": "2026-10-18T03:25:30Z"
   }
 }
