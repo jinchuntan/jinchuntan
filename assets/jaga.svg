@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="144" viewBox="0 0 540 144" role="img" aria-labelledby="title desc">
+  <title id="title">Jaga</title>
+  <desc id="desc">Decorative messages, a protective shield and a voice device. This is an illustration, not a product screenshot.</desc>
+  <rect width="540" height="144" rx="10" fill="#f2eee2"/>
+  <path d="M146 72H208M327 72H383" fill="none" stroke="#adbca9" stroke-width="2.5" stroke-dasharray="5 6"/>
+  <path d="M69 36H143Q153 36 153 46V85Q153 95 143 95H107L88 109V95H69Q59 95 59 85V46Q59 36 69 36Z" fill="#f9f6ed" stroke="#5e7865" stroke-width="2"/>
+  <path d="M77 55H133M77 69H121M77 83H107" stroke="#adbca9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M270 18L326 39V75C326 98 302 119 270 129C238 119 214 98 214 75V39Z" fill="#19352f"/>
+  <path d="M247 71L263 87L294 54" fill="none" stroke="#e6bf78" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="388" y="26" width="84" height="96" rx="15" fill="#d8dfc9" stroke="#496257" stroke-width="2"/>
+  <rect x="399" y="38" width="62" height="53" rx="7" fill="#19352f"/>
+  <path d="M409 64H415L419 52L425 76L432 49L438 72L443 61H451" fill="none" stroke="#94b69a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="430" cy="106" r="7" fill="#d94f30"/>
+</svg>

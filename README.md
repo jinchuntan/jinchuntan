@@ -10,6 +10,61 @@
 
 I'm **Tan Jin Chun (Nigel)**, a physical design engineer in Kuala Lumpur. I build tools for chip-design workflows and research uncertainty-aware monitoring.
 
+## Hackathon projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jinchuntan/jaga-scam-protection"><img src="./assets/jaga.svg" width="100%" alt="Jaga: an original illustration of a message, a protective shield and a voice device."></a>
+      <br><strong><a href="https://github.com/jinchuntan/jaga-scam-protection">Jaga</a></strong><br>
+      <sub><strong>3rd place</strong> · Codex Malaysia 2026</sub><br><br>
+      Scam checks across web, Telegram and an ESP32 voice companion.<br><br>
+      <a href="https://github.com/jinchuntan/jaga-scam-protection">Code</a> · <a href="https://jagacare.vercel.app/">Demo</a> · <a href="https://devpost.com/software/jaga-the-ai-scam-circuit-breaker">Award &amp; story</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jinchuntan/waddle-mock"><img src="./assets/waddle.svg" width="100%" alt="Waddle: an original illustration of suppliers connecting to a procurement workspace."></a>
+      <br><strong><a href="https://github.com/jinchuntan/waddle-mock">Waddle</a></strong><br>
+      <sub><strong>Winner · Dollar Track</strong> · AI.SEA $1 Sprint</sub><br><br>
+      Supplier discovery and procurement conversations for SMEs.<br><br>
+      <a href="https://github.com/jinchuntan/waddle-mock">Code</a> · <a href="https://waddle.fovea.space/">Product</a> · <a href="https://www.fovea.space/#recognition">Recognition</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jinchuntan/kintsuginotes"><img src="./assets/kintsuginotes.svg" width="100%" alt="Kintsugi Notes: an original illustration of a study card repaired with a golden seam."></a>
+      <br><strong><a href="https://github.com/jinchuntan/kintsuginotes">Kintsugi Notes</a></strong><br>
+      <sub><strong>Iteration Machine · Special Prize</strong> · DSH Hacks V1</sub><br><br>
+      Turns study mistakes into explanations and targeted practice.<br><br>
+      <a href="https://github.com/jinchuntan/kintsuginotes">Code</a> · <a href="https://kintsuginotes.vercel.app/">Demo</a> · <a href="https://devpost.com/software/kintsugi-notes-ynkma0">Award</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jinchuntan/persephone"><img src="./assets/persephone.svg" width="100%" alt="Persephone: an original illustration of a wearable event badge and a voice waveform."></a>
+      <br><strong><a href="https://github.com/jinchuntan/persephone">Persephone</a></strong><br>
+      <sub><strong>Top 5 finalist · Robotics &amp; Physical AI</strong> · Agentic AI Build Week</sub><br><br>
+      A wearable event assistant. Public design notes and a related voice Q&amp;A backend.<br><br>
+      <a href="https://github.com/jinchuntan/persephone">Design notes</a> · <a href="https://github.com/jinchuntan/whisp-voice-qa">Q&amp;A backend</a> · <a href="https://www.fovea.space/#recognition">Recognition</a>
+    </td>
+  </tr>
+</table>
+
+<sub>Jaga, Waddle and Persephone are team projects with <a href="https://github.com/NathanHor22">Nathan Hor</a>. Kintsugi Notes is an individual project.</sub>
+
+Research: [ConfoSense](https://github.com/jinchuntan/confosense) — forecasting, conformal prediction and reliable building alerts.
+
+<details>
+<summary>More projects &amp; recognition</summary>
+
+| Project | Highlight | Explore |
+| :--- | :--- | :--- |
+| Presence Postcard | 1st place · AR Track, Pacific Portal XR 2026 | [Project overview](https://www.fovea.space/#recognition) |
+| Purrmit | Top 3 finalist · Lovable Healthcare Operations | [Demo](https://purrmit.lovable.app/) |
+| Quipus | Conversation memory and compact recording hardware | [Code](https://github.com/jinchuntan/quipus) |
+| RoomLab | Multiplayer spatial learning prototype | [Code](https://github.com/jinchuntan/RoomLab) |
+
+Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow](https://github.com/jinchuntan/gotongflow) · [OCI field tools](https://github.com/jinchuntan?tab=repositories&q=oci-)
+
+</details>
+
 ## Open source
 
 <!-- CONTRIBUTIONS:START -->
@@ -107,37 +162,6 @@ I'm **Tan Jin Chun (Nigel)**, a physical design engineer in Kuala Lumpur. I buil
 <p><sub>Public upstream PRs · Updated 2026-10-18 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
 
 <!-- CONTRIBUTIONS:END -->
-
-## Selected projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/jinchuntan/confosense"><img src="./assets/confosense.svg" width="100%" alt="ConfoSense: an illustrated forecast with a surrounding uncertainty band."></a>
-      <br><strong><a href="https://github.com/jinchuntan/confosense">ConfoSense</a></strong><br>
-      Forecasting and conformal prediction for reliable building alerts. Master's research.
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/jinchuntan/quipus"><img src="./assets/quipus.svg" width="100%" alt="Quipus: an illustrated compact device beside a conversation waveform."></a>
-      <br><strong><a href="https://github.com/jinchuntan/quipus">Quipus / Fovea</a></strong><br>
-      Conversation memory, follow-ups and compact recording hardware. Ongoing prototype.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/jinchuntan/procurepilot"><img src="./assets/procurepilot.svg" width="100%" alt="ProcurePilot: an original illustration of supplier options feeding into a comparison panel."></a>
-      <br><strong><a href="https://github.com/jinchuntan/procurepilot">ProcurePilot</a></strong><br>
-      A procurement copilot comparing price, lead time and supplier risk. Hackathon MVP.
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/jinchuntan/RoomLab"><img src="./assets/roomlab.svg" width="100%" alt="RoomLab: an original molecule illustration with connected atoms and shared cursors."></a>
-      <br><strong><a href="https://github.com/jinchuntan/RoomLab">RoomLab</a></strong><br>
-      Multiplayer molecule-building and quizzes in a shared browser scene. Spatial learning prototype.
-    </td>
-  </tr>
-</table>
-
-Also: [GotongFlow](https://github.com/jinchuntan/gotongflow) · [OCI field tools](https://github.com/jinchuntan?tab=repositories&q=oci-)
 
 ## Featured in
 

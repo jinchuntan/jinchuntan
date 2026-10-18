@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="144" viewBox="0 0 540 144" role="img" aria-labelledby="title desc">
+  <title id="title">Persephone</title>
+  <desc id="desc">A decorative wearable event badge, voice waveform and question cards. This is an illustration, not a hardware photograph.</desc>
+  <rect width="540" height="144" rx="10" fill="#f2eee2"/>
+  <path d="M117 19L107 4M147 19L157 4" fill="none" stroke="#70977e" stroke-width="5" stroke-linecap="round"/>
+  <rect x="78" y="18" width="108" height="111" rx="15" fill="#f9f6ed" stroke="#496257" stroke-width="2.5"/>
+  <rect x="90" y="32" width="84" height="61" rx="8" fill="#19352f"/>
+  <path d="M100 62H109L114 49L121 75L131 44L140 72L147 57H164" fill="none" stroke="#94b69a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="119" y="21" width="26" height="5" rx="2.5" fill="#70977e"/>
+  <circle cx="132" cy="110" r="7" fill="#d94f30"/>
+  <path d="M203 72H260M289 37V107M260 72H289M289 37H322M289 72H322M289 107H322" fill="none" stroke="#adbca9" stroke-width="2.5" stroke-linecap="round"/>
+  <g fill="#f9f6ed" stroke="#5e7865" stroke-width="2"><rect x="322" y="22" width="145" height="30" rx="8"/><rect x="322" y="57" width="145" height="30" rx="8"/><rect x="322" y="92" width="145" height="30" rx="8"/></g>
+  <g fill="#70977e"><circle cx="338" cy="37" r="5"/><circle cx="338" cy="72" r="5"/></g>
+  <circle cx="338" cy="107" r="5" fill="#d94f30"/>
+  <path d="M352 37H449M352 72H432M352 107H440" stroke="#adbca9" stroke-width="4" stroke-linecap="round"/>
+</svg>

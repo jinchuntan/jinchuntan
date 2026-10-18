@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="144" viewBox="0 0 540 144" role="img" aria-labelledby="title desc">
+  <title id="title">Kintsugi Notes</title>
+  <desc id="desc">A decorative study card repaired with a golden seam, beside practice cards. No learning results are represented.</desc>
+  <rect width="540" height="144" rx="10" fill="#f2eee2"/>
+  <rect x="59" y="26" width="110" height="92" rx="9" fill="#e2e6d6" stroke="#adbca9" stroke-width="2" transform="rotate(-6 114 72)"/>
+  <rect x="158" y="17" width="176" height="110" rx="11" fill="#19352f"/>
+  <path d="M244 17L229 43L248 65L231 90L244 127M248 65L284 73L299 94M229 43L201 51" fill="none" stroke="#e6bf78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#7c9c83" stroke-width="4" stroke-linecap="round"><path d="M177 40H211M177 55H198M267 42H313M267 55H300M176 101H210M266 109H312"/></g>
+  <path d="M346 72H369" fill="none" stroke="#adbca9" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="380" y="29" width="104" height="86" rx="10" fill="#f9f6ed" stroke="#5e7865" stroke-width="2"/>
+  <g fill="#70977e"><circle cx="398" cy="49" r="5"/><circle cx="398" cy="72" r="5"/></g>
+  <circle cx="398" cy="95" r="5" fill="#d94f30"/>
+  <path d="M411 49H464M411 72H450M411 95H458" stroke="#adbca9" stroke-width="4" stroke-linecap="round"/>
+</svg>
