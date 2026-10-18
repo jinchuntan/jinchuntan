@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="144" viewBox="0 0 540 144" role="img" aria-labelledby="title desc">
+  <title id="title">RoomLab</title>
+  <desc id="desc">Decorative molecule-building scene with connected atoms and shared cursors.</desc>
+  <rect width="540" height="144" rx="10" fill="#eaf0f1"/>
+  <g fill="none" stroke="#d0dfe0"><path d="M34 109L264 125L499 103M34 109L132 24L413 23L499 103M132 24L264 125L413 23"/></g>
+  <g fill="none" stroke="#7c9a97" stroke-width="6" stroke-linecap="round"><path d="M259 73L181 40M259 73L203 112M259 73L338 38M259 73L349 108"/></g>
+  <circle cx="259" cy="73" r="25" fill="#19352f"/>
+  <circle cx="181" cy="40" r="15" fill="#97b9ad" stroke="#eaf0f1" stroke-width="3"/>
+  <circle cx="203" cy="112" r="15" fill="#97b9ad" stroke="#eaf0f1" stroke-width="3"/>
+  <circle cx="338" cy="38" r="15" fill="#d86b49" stroke="#eaf0f1" stroke-width="3"/>
+  <circle cx="349" cy="108" r="15" fill="#97b9ad" stroke="#eaf0f1" stroke-width="3"/>
+  <g stroke="#eaf0f1" stroke-width="2" stroke-linejoin="round"><path d="M106 71L108 95L115 87L125 85Z" fill="#d86b49"/><path d="M429 46L431 70L438 62L448 60Z" fill="#367c83"/></g>
+</svg>

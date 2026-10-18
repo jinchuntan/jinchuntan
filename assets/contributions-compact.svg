@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title">
+<title id="title">Public upstream pull request summary</title>
+<rect x="4" y="4" width="288" height="138" rx="12" fill="#f6f3ea" stroke="#e3e3d9"/>
+<rect x="24" y="25" width="24" height="4" rx="2" fill="#19352f"/>
+<text x="24" y="88" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" fill="#19352f">41</text>
+<text x="24" y="119" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#496257">Upstream PRs</text>
+<rect x="304" y="4" width="288" height="138" rx="12" fill="#f6f3ea" stroke="#e3e3d9"/>
+<rect x="324" y="25" width="24" height="4" rx="2" fill="#8050a4"/>
+<text x="324" y="88" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" fill="#8050a4">6</text>
+<text x="324" y="119" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#496257">Merged</text>
+<rect x="4" y="154" width="288" height="138" rx="12" fill="#f6f3ea" stroke="#e3e3d9"/>
+<rect x="24" y="175" width="24" height="4" rx="2" fill="#28724e"/>
+<text x="24" y="238" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" fill="#28724e">35</text>
+<text x="24" y="269" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#496257">Open</text>
+<rect x="304" y="154" width="288" height="138" rx="12" fill="#f6f3ea" stroke="#e3e3d9"/>
+<rect x="324" y="175" width="24" height="4" rx="2" fill="#c75132"/>
+<text x="324" y="238" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" fill="#c75132">19</text>
+<text x="324" y="269" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#496257">Repositories</text>
+</svg>

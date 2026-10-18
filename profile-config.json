@@ -1,0 +1,39 @@
+{
+  "username": "jinchuntan",
+  "groups": [
+    {
+      "title": "IC design",
+      "repositories": {
+        "The-OpenROAD-Project/OpenROAD": "OpenROAD",
+        "The-OpenROAD-Project/OpenROAD-flow-scripts": "OpenROAD flow scripts",
+        "KLayout/klayout": "KLayout",
+        "VLSIDA/OpenRAM": "OpenRAM",
+        "librelane/librelane": "LibreLane"
+      }
+    },
+    {
+      "title": "AI & data",
+      "repositories": {
+        "langchain-ai/langchainjs": "LangChain.js",
+        "huggingface/datasets": "Hugging Face Datasets",
+        "huggingface/lerobot": "LeRobot",
+        "ollama/ollama": "Ollama",
+        "pandas-dev/pandas": "pandas",
+        "root-project/root": "ROOT"
+      }
+    },
+    {
+      "title": "Developer tools",
+      "repositories": {
+        "astral-sh/ruff": "Ruff",
+        "prettier/prettier": "Prettier",
+        "pytest-dev/pytest": "pytest",
+        "snakemake/snakemake": "Snakemake",
+        "andorthehood/8f4e": "8f4e",
+        "ChristianHandy/FleetPilot": "FleetPilot",
+        "piyush588/vibeCI": "vibeCI",
+        "pyrite-wiki/pyrite": "Pyrite"
+      }
+    }
+  ]
+}
