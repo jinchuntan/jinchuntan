@@ -158,9 +158,9 @@
       "repository": "huggingface/datasets",
       "number": 8840,
       "title": "Fix indices buffer loading in Dataset.from_buffer",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/huggingface/datasets/pull/8840",
-      "updated_at": "2026-10-18T02:19:13Z"
+      "updated_at": "2026-10-19T17:53:36Z"
     },
     {
       "repository": "huggingface/datasets",
@@ -192,7 +192,7 @@
       "title": "Warn once when resuming a shuffled dataset",
       "status": "Open",
       "url": "https://github.com/huggingface/datasets/pull/8844",
-      "updated_at": "2026-10-18T02:57:43Z"
+      "updated_at": "2026-10-19T17:32:35Z"
     },
     {
       "repository": "huggingface/datasets",
@@ -334,9 +334,9 @@
       "repository": "pyrite-wiki/pyrite",
       "number": 1007,
       "title": "fix: use the package version in OpenAPI",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/pyrite-wiki/pyrite/pull/1007",
-      "updated_at": "2026-10-17T23:15:04Z"
+      "updated_at": "2026-10-19T18:51:45Z"
     },
     {
       "repository": "pytest-dev/pytest",
@@ -404,7 +404,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "17600969428",
-    "created_at": "2026-10-19T12:55:22Z"
+    "id": "24567184574",
+    "created_at": "2026-10-18T00:09:40Z"
   }
 }

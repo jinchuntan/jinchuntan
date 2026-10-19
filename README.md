@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-711e95f845ff.svg">
-  <img src="./assets/contributions-711e95f845ff.svg" width="100%" alt="50 public upstream PRs across 20 repositories: 11 merged, 35 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-359b937aeeab.svg">
+  <img src="./assets/contributions-359b937aeeab.svg" width="100%" alt="50 public upstream PRs across 20 repositories: 13 merged, 33 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -90,7 +90,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
     <td width="33%" valign="top">
       <h4>AI &amp; data</h4>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alangchain-ai%2Flangchainjs&amp;type=pullrequests">LangChain.js</a> <sub>4 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahuggingface%2Fdatasets&amp;type=pullrequests">Hugging Face Datasets</a> <sub>8 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahuggingface%2Fdatasets&amp;type=pullrequests">Hugging Face Datasets</a> <sub>1 merged · 7 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahuggingface%2Flerobot&amp;type=pullrequests">LeRobot</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aollama%2Follama&amp;type=pullrequests">Ollama</a> <sub>2 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apandas-dev%2Fpandas&amp;type=pullrequests">pandas</a> <sub>1 open</sub><br>
@@ -105,7 +105,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>8 merged · 7 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 open</sub>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 merged</sub>
     </td>
   </tr>
 </table>
@@ -145,7 +145,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8843">#8843 · Fix mask resizing in the semantic segmentation guide</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8842">#8842 · Include the config name when no data files are found</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8841">#8841 · Handle UTF-8 BOMs in every JSON input file</a> | Open |
-| huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8840">#8840 · Fix indices buffer loading in Dataset.from_buffer</a> | Open |
+| huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8840">#8840 · Fix indices buffer loading in Dataset.from_buffer</a> | Merged |
 | huggingface/lerobot | <a href="https://github.com/huggingface/lerobot/pull/5004">#5004 · Add image size and JPEG quality controls to dataset viewer</a> | Open |
 | KLayout/klayout | <a href="https://github.com/KLayout/klayout/pull/2516">#2516 · Use explicit LEF files without directory scanning</a> | Closed |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11975">#11975 · feat(mcp-adapters): support progress timeout resets</a> | Open |
@@ -160,7 +160,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | pandas-dev/pandas | <a href="https://github.com/pandas-dev/pandas/pull/71269">#71269 · BUG preserve error bars when plot labels are changed</a> | Open |
 | piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/14">#14 · Add Bun test runner detection</a> | Merged |
 | prettier/prettier | <a href="https://github.com/prettier/prettier/pull/20312">#20312 · Keep method chains stable when the last argument expands</a> | Closed |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1007">#1007 · fix: use the package version in OpenAPI</a> | Open |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1007">#1007 · fix: use the package version in OpenAPI</a> | Merged |
 | pytest-dev/pytest | <a href="https://github.com/pytest-dev/pytest/pull/15197">#15197 · Escape unencodable names in PYTEST_CURRENT_TEST</a> | Open |
 | root-project/root | <a href="https://github.com/root-project/root/pull/23747">#23747 · &#91;core&#93; Fix shell detection with multiline commands</a> | Open |
 | snakemake/snakemake | <a href="https://github.com/snakemake/snakemake/pull/4346">#4346 · docs: document the minimum Pixi version for contributors</a> | Open |
