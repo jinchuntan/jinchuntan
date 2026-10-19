@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-da3a0a69be2a.svg">
-  <img src="./assets/contributions-da3a0a69be2a.svg" width="100%" alt="44 public upstream PRs across 19 repositories: 9 merged, 33 open, 2 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-711e95f845ff.svg">
+  <img src="./assets/contributions-711e95f845ff.svg" width="100%" alt="50 public upstream PRs across 20 repositories: 11 merged, 35 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -98,11 +98,11 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
     </td>
     <td width="33%" valign="top">
       <h4>Developer tools</h4>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aastral-sh%2Fruff&amp;type=pullrequests">Ruff</a> <sub>2 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aastral-sh%2Fruff&amp;type=pullrequests">Ruff</a> <sub>2 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aprettier%2Fprettier&amp;type=pullrequests">Prettier</a> <sub>1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apytest-dev%2Fpytest&amp;type=pullrequests">pytest</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a> <sub>1 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>6 merged · 5 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>8 merged · 7 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 open</sub>
@@ -110,24 +110,32 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   </tr>
 </table>
 
+<p><strong>More repositories</strong><br>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>2 open</sub>
+</p>
+
 <details>
-<summary><strong>Explore all 44 pull requests</strong></summary>
+<summary><strong>Explore all 50 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1115">#1115 · docs(compiler): add a runnable public API quickstart</a> | Open |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1114">#1114 · test(compiler): cover unsigned shifts and notZero at runtime</a> | Open |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1113">#1113 · fix(tokenizer): avoid temporary source-line pairs</a> | Open |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1111">#1111 · fix!: use allocation-unit terminology for memory layouts</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1101">#1101 · fix(semantic-utils): remove unused block depth cache</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1100">#1100 · fix(stack-analyzer): validate localSet float widths</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1093">#1093 · fix(tokenizer): reject non-ASCII entity names</a> | Open |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1091">#1091 · fix(memory-reference-resolver): preserve float64 metadata bounds</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1090">#1090 · fix(memory-planner): preserve float64 array value types</a> | Open |
+| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1090">#1090 · fix(memory-planner): preserve float64 array value types</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1089">#1089 · fix(tokenizer): preserve exponent signs in compile-time expressions</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1088">#1088 · fix(wasm-codegen): preserve one-element array initializers</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1087">#1087 · fix(tokenizer): reject overflowing hexadecimal and binary literals</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1082">#1082 · fix(tokenizer): invalidate cached ASTs after source edits</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1080">#1080 · fix(project-preparser): preserve note block content</a> | Merged |
 | andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1078">#1078 · fix(compiler): reject invalid array sizes</a> | Merged |
-| astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29454">#29454 · &#91;flake8-use-pathlib&#93; Add an autofix for the last path component (PTH206)</a> | Open |
-| astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29453">#29453 · &#91;flake8-use-pathlib&#93; Add an autofix for extension access (PTH122)</a> | Open |
+| astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29454">#29454 · &#91;flake8-use-pathlib&#93; Add an autofix for the last path component (PTH206)</a> | Closed |
+| astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29453">#29453 · &#91;flake8-use-pathlib&#93; Add an autofix for extension access (PTH122)</a> | Closed |
 | ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/111">#111 · Add tests for scheduler settings and automatic updates</a> | Merged |
 | ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/110">#110 · Add tests for the example Slack notification plugin</a> | Merged |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8847">#8847 · Hide GPUs before spawning TensorFlow data workers</a> | Open |
@@ -144,6 +152,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11974">#11974 · fix(google-common): preserve anyOf tool schemas</a> | Open |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11973">#11973 · fix(core): preserve routes and per-input errors in router batches</a> | Open |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11972">#11972 · fix(openai): preserve request options when streaming</a> | Open |
+| langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44360">#44360 · refactor(web): use Console Query in the install form</a> | Open |
+| langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44359">#44359 · fix(web): avoid redundant indexing notifications</a> | Open |
 | librelane/librelane | <a href="https://github.com/librelane/librelane/pull/1053">#1053 · KLayout: make DEF layer map optional</a> | Open |
 | ollama/ollama | <a href="https://github.com/ollama/ollama/pull/19097">#19097 · Avoid reusing runners after cancelled startup</a> | Open |
 | ollama/ollama | <a href="https://github.com/ollama/ollama/pull/19096">#19096 · Handle servers that ignore download ranges</a> | Open |

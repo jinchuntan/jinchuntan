@@ -54,9 +54,9 @@
       "repository": "andorthehood/8f4e",
       "number": 1090,
       "title": "fix(memory-planner): preserve float64 array value types",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/andorthehood/8f4e/pull/1090",
-      "updated_at": "2026-10-18T17:26:09Z"
+      "updated_at": "2026-10-19T06:34:37Z"
     },
     {
       "repository": "andorthehood/8f4e",
@@ -91,20 +91,52 @@
       "updated_at": "2026-10-18T17:26:09Z"
     },
     {
+      "repository": "andorthehood/8f4e",
+      "number": 1111,
+      "title": "fix!: use allocation-unit terminology for memory layouts",
+      "status": "Merged",
+      "url": "https://github.com/andorthehood/8f4e/pull/1111",
+      "updated_at": "2026-10-19T11:40:45Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1113,
+      "title": "fix(tokenizer): avoid temporary source-line pairs",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1113",
+      "updated_at": "2026-10-19T11:23:52Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1114,
+      "title": "test(compiler): cover unsigned shifts and notZero at runtime",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1114",
+      "updated_at": "2026-10-19T11:23:49Z"
+    },
+    {
+      "repository": "andorthehood/8f4e",
+      "number": 1115,
+      "title": "docs(compiler): add a runnable public API quickstart",
+      "status": "Open",
+      "url": "https://github.com/andorthehood/8f4e/pull/1115",
+      "updated_at": "2026-10-19T11:23:47Z"
+    },
+    {
       "repository": "astral-sh/ruff",
       "number": 29453,
       "title": "[flake8-use-pathlib] Add an autofix for extension access (PTH122)",
-      "status": "Open",
+      "status": "Closed",
       "url": "https://github.com/astral-sh/ruff/pull/29453",
-      "updated_at": "2026-10-18T01:40:58Z"
+      "updated_at": "2026-10-19T14:33:24Z"
     },
     {
       "repository": "astral-sh/ruff",
       "number": 29454,
       "title": "[flake8-use-pathlib] Add an autofix for the last path component (PTH206)",
-      "status": "Open",
+      "status": "Closed",
       "url": "https://github.com/astral-sh/ruff/pull/29454",
-      "updated_at": "2026-10-18T01:58:51Z"
+      "updated_at": "2026-10-19T14:33:25Z"
     },
     {
       "repository": "ChristianHandy/FleetPilot",
@@ -235,6 +267,22 @@
       "updated_at": "2026-10-18T02:01:45Z"
     },
     {
+      "repository": "langgenius/dify",
+      "number": 44359,
+      "title": "fix(web): avoid redundant indexing notifications",
+      "status": "Open",
+      "url": "https://github.com/langgenius/dify/pull/44359",
+      "updated_at": "2026-10-19T12:00:22Z"
+    },
+    {
+      "repository": "langgenius/dify",
+      "number": 44360,
+      "title": "refactor(web): use Console Query in the install form",
+      "status": "Open",
+      "url": "https://github.com/langgenius/dify/pull/44360",
+      "updated_at": "2026-10-19T12:57:41Z"
+    },
+    {
       "repository": "librelane/librelane",
       "number": 1053,
       "title": "KLayout: make DEF layer map optional",
@@ -304,7 +352,7 @@
       "title": "[core] Fix shell detection with multiline commands",
       "status": "Open",
       "url": "https://github.com/root-project/root/pull/23747",
-      "updated_at": "2026-10-17T10:44:33Z"
+      "updated_at": "2026-10-19T08:02:24Z"
     },
     {
       "repository": "snakemake/snakemake",
@@ -356,7 +404,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "24501419335",
-    "created_at": "2026-10-17T09:58:49Z"
+    "id": "17600969428",
+    "created_at": "2026-10-19T12:55:22Z"
   }
 }
