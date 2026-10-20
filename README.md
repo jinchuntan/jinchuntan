@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-359b937aeeab.svg">
-  <img src="./assets/contributions-359b937aeeab.svg" width="100%" alt="50 public upstream PRs across 20 repositories: 13 merged, 33 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-9611f24f7ebb.svg">
+  <img src="./assets/contributions-9611f24f7ebb.svg" width="100%" alt="51 public upstream PRs across 20 repositories: 13 merged, 34 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -111,11 +111,11 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>2 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub>
 </p>
 
 <details>
-<summary><strong>Explore all 50 pull requests</strong></summary>
+<summary><strong>Explore all 51 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
@@ -152,6 +152,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11974">#11974 · fix(google-common): preserve anyOf tool schemas</a> | Open |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11973">#11973 · fix(core): preserve routes and per-input errors in router batches</a> | Open |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11972">#11972 · fix(openai): preserve request options when streaming</a> | Open |
+| langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44372">#44372 · refactor(web): share workflow comment queries and mutations</a> | Open |
 | langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44360">#44360 · refactor(web): use Console Query in the install form</a> | Open |
 | langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44359">#44359 · fix(web): avoid redundant indexing notifications</a> | Open |
 | librelane/librelane | <a href="https://github.com/librelane/librelane/pull/1053">#1053 · KLayout: make DEF layer map optional</a> | Open |
@@ -172,7 +173,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 
 </details>
 
-<p><sub>Public upstream PRs · Updated 2026-10-19 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
+<p><sub>Public upstream PRs · Updated 2026-10-20 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
 
 <!-- CONTRIBUTIONS:END -->
 

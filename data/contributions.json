@@ -1,6 +1,6 @@
 {
   "username": "jinchuntan",
-  "checked_on": "2026-10-19",
+  "checked_on": "2026-10-20",
   "pull_requests": [
     {
       "repository": "andorthehood/8f4e",
@@ -283,6 +283,14 @@
       "updated_at": "2026-10-19T12:57:41Z"
     },
     {
+      "repository": "langgenius/dify",
+      "number": 44372,
+      "title": "refactor(web): share workflow comment queries and mutations",
+      "status": "Open",
+      "url": "https://github.com/langgenius/dify/pull/44372",
+      "updated_at": "2026-10-20T00:48:03Z"
+    },
+    {
       "repository": "librelane/librelane",
       "number": 1053,
       "title": "KLayout: make DEF layer map optional",
@@ -404,7 +412,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "24567184574",
-    "created_at": "2026-10-18T00:09:40Z"
+    "id": "24591176823",
+    "created_at": "2026-10-18T04:39:40Z"
   }
 }
