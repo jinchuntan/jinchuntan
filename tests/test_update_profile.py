@@ -73,6 +73,46 @@ class ProfileUpdaterTests(unittest.TestCase):
         self.assertEqual({p['repository'] for p in records}, {'upstream/tool', 'new/repository'})
         self.assertEqual(checkpoint['id'], '2')
 
+    def test_transferred_repository_is_counted_once(self):
+        moved = pr(1, repo='new/tool')
+        other = pr(1, repo='other/tool')
+        current_api = api([event(1, 'new/tool'), event(1, 'other/tool')], [moved, other])
+
+        def get_json(path):
+            if path == '/repos/upstream/tool/pulls/1':
+                return moved
+            return current_api(path)
+
+        records, _ = profile.collect_pull_requests('nigel', snapshot([pr(1)]), get_json)
+        self.assertEqual(len(records), 2)
+        self.assertEqual({p['repository'] for p in records}, {'new/tool', 'other/tool'})
+        profile.validate_snapshot(dict(snapshot([]), pull_requests=records), 'nigel')
+
+    def test_repository_case_variants_are_counted_once(self):
+        current_api = api([event(1, 'UPSTREAM/Tool')], [pr(1)])
+        records, _ = profile.collect_pull_requests(
+            'nigel', snapshot([pr(1)]), lambda path: current_api(path.lower()))
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]['repository'], 'upstream/tool')
+
+    def test_newest_status_is_kept_when_repository_aliases_overlap(self):
+        older = pr(1, repo='new/tool')
+        newer = pr(1, 'closed', merged=True, repo='new/tool')
+        newer['updated_at'] = '2026-10-19T05:00:00Z'
+        for old_url, new_url in [(older, newer), (newer, older)]:
+            with self.subTest(old_url_status=old_url['state']):
+                current_api = api([event(1, 'new/tool')], [new_url])
+
+                def get_json(path):
+                    if path == '/repos/upstream/tool/pulls/1':
+                        return old_url
+                    return current_api(path)
+
+                records, _ = profile.collect_pull_requests('nigel', snapshot([pr(1)]), get_json)
+                self.assertEqual(len(records), 1)
+                self.assertEqual(records[0]['status'], 'Merged')
+                self.assertEqual(records[0]['updated_at'], newer['updated_at'])
+
     def test_own_private_and_internal_repositories_are_excluded(self):
         items = [pr(1), pr(2, repo='nigel/personal'), pr(3, visibility='private'), pr(4, visibility='internal')]
         events = [event(p['number'], p['base']['repo']['full_name']) for p in items]

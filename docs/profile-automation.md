@@ -15,6 +15,8 @@ community links are curated in `README.md`.
 - Discovery reads public PR activity, including new target repositories. Every
   saved or newly discovered PR is checked through its direct REST endpoint.
   It does not depend on author search or the profile's activity graph.
+- Repository transfers and case variants use GitHub's current repository name
+  so each PR is counted once.
 
 The checked-in `data/contributions.json` records the public source data. Edit
 `profile-config.json` to curate category labels. New targets still appear under
@@ -47,8 +49,8 @@ seeded in the snapshot. The updater retains that history, checks every saved
 PR, and discovers new PRs from up to 300 public events on every refresh. GitHub
 can delay event delivery, so a new PR may appear after a later refresh.
 
-API failures, duplicate PRs, missing README markers and an empty refresh after
-a nonempty snapshot fail before publishing. An event checkpoint detects when
+API failures, duplicate saved PRs, missing README markers and an empty refresh
+after a nonempty snapshot fail before publishing. An event checkpoint detects when
 the 300-event window may have skipped activity; such a gap also fails rather
 than publishing incomplete totals. If that happens, reconcile the snapshot
 with GitHub's authored-PR list and reset the checkpoint. Saved PRs remain in

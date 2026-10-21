@@ -90,15 +90,23 @@ def collect_pull_requests(username, previous, get_json=github_json):
 
     print(f"Read {len(events)} public events; checking {len(candidates)} PRs directly.", flush=True)
     executor = ThreadPoolExecutor(max_workers=4)
+    records = {}
     try:
-        records = [pr for pr in executor.map(fetch_pr, sorted(candidates)) if pr is not None]
+        for pr in executor.map(fetch_pr, sorted(candidates)):
+            if pr is None:
+                continue
+            # Old and new repository URLs can resolve to the same PR after a transfer.
+            identity = (pr["repository"].casefold(), pr["number"])
+            existing = records.get(identity)
+            if existing is None or pr["updated_at"] > existing["updated_at"]:
+                records[identity] = pr
     finally:
         executor.shutdown(wait=True, cancel_futures=True)
     if previous["pull_requests"] and not records:
         raise ValueError("Refresh returned no PRs; keeping the verified snapshot")
     if events:
         checkpoint = {"id": events[0]["id"], "created_at": events[0]["created_at"]}
-    return records, checkpoint
+    return list(records.values()), checkpoint
 
 
 def validate_snapshot(snapshot, username):
