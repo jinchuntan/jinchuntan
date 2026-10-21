@@ -417,10 +417,26 @@
       "status": "Merged",
       "url": "https://github.com/VLSIDA/OpenRAM/pull/329",
       "updated_at": "2026-10-20T16:38:48Z"
+    },
+    {
+      "repository": "VLSIDA/OpenRAM",
+      "number": 331,
+      "title": "Report configuration syntax errors through the normal diagnostic",
+      "status": "Merged",
+      "url": "https://github.com/VLSIDA/OpenRAM/pull/331",
+      "updated_at": "2026-10-21T01:17:06Z"
+    },
+    {
+      "repository": "VLSIDA/OpenRAM",
+      "number": 332,
+      "title": "docs: clarify setup and macro compiler options",
+      "status": "Open",
+      "url": "https://github.com/VLSIDA/OpenRAM/pull/332",
+      "updated_at": "2026-10-21T01:34:45Z"
     }
   ],
   "event_checkpoint": {
-    "id": "17763380911",
-    "created_at": "2026-10-21T00:06:50Z"
+    "id": "17768125819",
+    "created_at": "2026-10-21T01:34:45Z"
   }
 }
