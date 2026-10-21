@@ -102,9 +102,9 @@
       "repository": "8f4e/8f4e",
       "number": 1113,
       "title": "fix(tokenizer): avoid temporary source-line pairs",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/8f4e/8f4e/pull/1113",
-      "updated_at": "2026-10-19T11:23:52Z"
+      "updated_at": "2026-10-21T07:47:45Z"
     },
     {
       "repository": "8f4e/8f4e",
@@ -360,7 +360,7 @@
       "title": "[core] Fix shell detection with multiline commands",
       "status": "Open",
       "url": "https://github.com/root-project/root/pull/23747",
-      "updated_at": "2026-10-20T16:30:13Z"
+      "updated_at": "2026-10-21T07:05:09Z"
     },
     {
       "repository": "snakemake/snakemake",
@@ -436,7 +436,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "17768125819",
-    "created_at": "2026-10-21T01:34:45Z"
+    "id": "17789204881",
+    "created_at": "2026-10-21T07:47:45Z"
   }
 }
