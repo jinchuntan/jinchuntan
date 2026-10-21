@@ -1,125 +1,125 @@
 {
   "username": "jinchuntan",
-  "checked_on": "2026-10-20",
+  "checked_on": "2026-10-21",
   "pull_requests": [
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1078,
       "title": "fix(compiler): reject invalid array sizes",
       "status": "Merged",
-      "url": "https://github.com/andorthehood/8f4e/pull/1078",
+      "url": "https://github.com/8f4e/8f4e/pull/1078",
       "updated_at": "2026-10-17T19:58:27Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1080,
       "title": "fix(project-preparser): preserve note block content",
       "status": "Merged",
-      "url": "https://github.com/andorthehood/8f4e/pull/1080",
+      "url": "https://github.com/8f4e/8f4e/pull/1080",
       "updated_at": "2026-10-17T13:20:27Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1082,
       "title": "fix(tokenizer): invalidate cached ASTs after source edits",
       "status": "Merged",
-      "url": "https://github.com/andorthehood/8f4e/pull/1082",
+      "url": "https://github.com/8f4e/8f4e/pull/1082",
       "updated_at": "2026-10-17T20:06:12Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1087,
       "title": "fix(tokenizer): reject overflowing hexadecimal and binary literals",
       "status": "Merged",
-      "url": "https://github.com/andorthehood/8f4e/pull/1087",
+      "url": "https://github.com/8f4e/8f4e/pull/1087",
       "updated_at": "2026-10-18T07:45:30Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1088,
       "title": "fix(wasm-codegen): preserve one-element array initializers",
       "status": "Merged",
-      "url": "https://github.com/andorthehood/8f4e/pull/1088",
+      "url": "https://github.com/8f4e/8f4e/pull/1088",
       "updated_at": "2026-10-18T15:30:24Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1089,
       "title": "fix(tokenizer): preserve exponent signs in compile-time expressions",
       "status": "Merged",
-      "url": "https://github.com/andorthehood/8f4e/pull/1089",
+      "url": "https://github.com/8f4e/8f4e/pull/1089",
       "updated_at": "2026-10-18T15:54:42Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1090,
       "title": "fix(memory-planner): preserve float64 array value types",
       "status": "Merged",
-      "url": "https://github.com/andorthehood/8f4e/pull/1090",
+      "url": "https://github.com/8f4e/8f4e/pull/1090",
       "updated_at": "2026-10-19T06:34:37Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1091,
       "title": "fix(memory-reference-resolver): preserve float64 metadata bounds",
       "status": "Open",
-      "url": "https://github.com/andorthehood/8f4e/pull/1091",
-      "updated_at": "2026-10-18T17:26:09Z"
+      "url": "https://github.com/8f4e/8f4e/pull/1091",
+      "updated_at": "2026-10-20T07:30:29Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1093,
       "title": "fix(tokenizer): reject non-ASCII entity names",
-      "status": "Open",
-      "url": "https://github.com/andorthehood/8f4e/pull/1093",
-      "updated_at": "2026-10-18T17:26:09Z"
+      "status": "Merged",
+      "url": "https://github.com/8f4e/8f4e/pull/1093",
+      "updated_at": "2026-10-20T07:54:10Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1100,
       "title": "fix(stack-analyzer): validate localSet float widths",
-      "status": "Open",
-      "url": "https://github.com/andorthehood/8f4e/pull/1100",
-      "updated_at": "2026-10-18T17:26:09Z"
+      "status": "Merged",
+      "url": "https://github.com/8f4e/8f4e/pull/1100",
+      "updated_at": "2026-10-20T18:00:11Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1101,
       "title": "fix(semantic-utils): remove unused block depth cache",
-      "status": "Open",
-      "url": "https://github.com/andorthehood/8f4e/pull/1101",
-      "updated_at": "2026-10-18T17:26:09Z"
+      "status": "Merged",
+      "url": "https://github.com/8f4e/8f4e/pull/1101",
+      "updated_at": "2026-10-20T18:42:52Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1111,
       "title": "fix!: use allocation-unit terminology for memory layouts",
       "status": "Merged",
-      "url": "https://github.com/andorthehood/8f4e/pull/1111",
+      "url": "https://github.com/8f4e/8f4e/pull/1111",
       "updated_at": "2026-10-19T11:40:45Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1113,
       "title": "fix(tokenizer): avoid temporary source-line pairs",
       "status": "Open",
-      "url": "https://github.com/andorthehood/8f4e/pull/1113",
+      "url": "https://github.com/8f4e/8f4e/pull/1113",
       "updated_at": "2026-10-19T11:23:52Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1114,
       "title": "test(compiler): cover unsigned shifts and notZero at runtime",
       "status": "Open",
-      "url": "https://github.com/andorthehood/8f4e/pull/1114",
+      "url": "https://github.com/8f4e/8f4e/pull/1114",
       "updated_at": "2026-10-19T11:23:49Z"
     },
     {
-      "repository": "andorthehood/8f4e",
+      "repository": "8f4e/8f4e",
       "number": 1115,
       "title": "docs(compiler): add a runnable public API quickstart",
       "status": "Open",
-      "url": "https://github.com/andorthehood/8f4e/pull/1115",
+      "url": "https://github.com/8f4e/8f4e/pull/1115",
       "updated_at": "2026-10-19T11:23:47Z"
     },
     {
@@ -360,7 +360,7 @@
       "title": "[core] Fix shell detection with multiline commands",
       "status": "Open",
       "url": "https://github.com/root-project/root/pull/23747",
-      "updated_at": "2026-10-19T08:02:24Z"
+      "updated_at": "2026-10-20T16:30:13Z"
     },
     {
       "repository": "snakemake/snakemake",
@@ -376,7 +376,7 @@
       "title": "odb: require matching layers for pin abutment",
       "status": "Open",
       "url": "https://github.com/The-OpenROAD-Project/OpenROAD/pull/11814",
-      "updated_at": "2026-10-17T23:36:47Z"
+      "updated_at": "2026-10-20T08:04:46Z"
     },
     {
       "repository": "The-OpenROAD-Project/OpenROAD",
@@ -385,6 +385,14 @@
       "status": "Open",
       "url": "https://github.com/The-OpenROAD-Project/OpenROAD/pull/11815",
       "updated_at": "2026-10-18T15:44:51Z"
+    },
+    {
+      "repository": "The-OpenROAD-Project/OpenROAD",
+      "number": 11856,
+      "title": "dpl: respect oriented fixed macro footprints",
+      "status": "Open",
+      "url": "https://github.com/The-OpenROAD-Project/OpenROAD/pull/11856",
+      "updated_at": "2026-10-20T18:07:32Z"
     },
     {
       "repository": "The-OpenROAD-Project/OpenROAD-flow-scripts",
@@ -406,13 +414,13 @@
       "repository": "VLSIDA/OpenRAM",
       "number": 329,
       "title": "Load configuration files by path",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/VLSIDA/OpenRAM/pull/329",
-      "updated_at": "2026-10-18T00:13:17Z"
+      "updated_at": "2026-10-20T16:38:48Z"
     }
   ],
   "event_checkpoint": {
-    "id": "24591176823",
-    "created_at": "2026-10-18T04:39:40Z"
+    "id": "17739450937",
+    "created_at": "2026-10-20T18:42:52Z"
   }
 }

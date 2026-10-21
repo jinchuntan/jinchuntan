@@ -73,18 +73,18 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-9611f24f7ebb.svg">
-  <img src="./assets/contributions-9611f24f7ebb.svg" width="100%" alt="51 public upstream PRs across 20 repositories: 13 merged, 34 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-2706bc6ca0e8.svg">
+  <img src="./assets/contributions-2706bc6ca0e8.svg" width="100%" alt="52 public upstream PRs across 20 repositories: 17 merged, 31 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
       <h4>IC design</h4>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>2 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>3 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD-flow-scripts&amp;type=pullrequests">OpenROAD flow scripts</a> <sub>2 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AKLayout%2Fklayout&amp;type=pullrequests">KLayout</a> <sub>1 closed</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a> <sub>1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a> <sub>1 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alibrelane%2Flibrelane&amp;type=pullrequests">LibreLane</a> <sub>1 open</sub>
     </td>
     <td width="33%" valign="top">
@@ -102,7 +102,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aprettier%2Fprettier&amp;type=pullrequests">Prettier</a> <sub>1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apytest-dev%2Fpytest&amp;type=pullrequests">pytest</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a> <sub>1 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aandorthehood%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>8 merged · 7 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3A8f4e%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>11 merged · 4 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 merged</sub>
@@ -115,25 +115,25 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </p>
 
 <details>
-<summary><strong>Explore all 51 pull requests</strong></summary>
+<summary><strong>Explore all 52 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1115">#1115 · docs(compiler): add a runnable public API quickstart</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1114">#1114 · test(compiler): cover unsigned shifts and notZero at runtime</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1113">#1113 · fix(tokenizer): avoid temporary source-line pairs</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1111">#1111 · fix!: use allocation-unit terminology for memory layouts</a> | Merged |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1101">#1101 · fix(semantic-utils): remove unused block depth cache</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1100">#1100 · fix(stack-analyzer): validate localSet float widths</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1093">#1093 · fix(tokenizer): reject non-ASCII entity names</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1091">#1091 · fix(memory-reference-resolver): preserve float64 metadata bounds</a> | Open |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1090">#1090 · fix(memory-planner): preserve float64 array value types</a> | Merged |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1089">#1089 · fix(tokenizer): preserve exponent signs in compile-time expressions</a> | Merged |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1088">#1088 · fix(wasm-codegen): preserve one-element array initializers</a> | Merged |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1087">#1087 · fix(tokenizer): reject overflowing hexadecimal and binary literals</a> | Merged |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1082">#1082 · fix(tokenizer): invalidate cached ASTs after source edits</a> | Merged |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1080">#1080 · fix(project-preparser): preserve note block content</a> | Merged |
-| andorthehood/8f4e | <a href="https://github.com/andorthehood/8f4e/pull/1078">#1078 · fix(compiler): reject invalid array sizes</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1115">#1115 · docs(compiler): add a runnable public API quickstart</a> | Open |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1114">#1114 · test(compiler): cover unsigned shifts and notZero at runtime</a> | Open |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1113">#1113 · fix(tokenizer): avoid temporary source-line pairs</a> | Open |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1111">#1111 · fix!: use allocation-unit terminology for memory layouts</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1101">#1101 · fix(semantic-utils): remove unused block depth cache</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1100">#1100 · fix(stack-analyzer): validate localSet float widths</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1093">#1093 · fix(tokenizer): reject non-ASCII entity names</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1091">#1091 · fix(memory-reference-resolver): preserve float64 metadata bounds</a> | Open |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1090">#1090 · fix(memory-planner): preserve float64 array value types</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1089">#1089 · fix(tokenizer): preserve exponent signs in compile-time expressions</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1088">#1088 · fix(wasm-codegen): preserve one-element array initializers</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1087">#1087 · fix(tokenizer): reject overflowing hexadecimal and binary literals</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1082">#1082 · fix(tokenizer): invalidate cached ASTs after source edits</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1080">#1080 · fix(project-preparser): preserve note block content</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1078">#1078 · fix(compiler): reject invalid array sizes</a> | Merged |
 | astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29454">#29454 · &#91;flake8-use-pathlib&#93; Add an autofix for the last path component (PTH206)</a> | Closed |
 | astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29453">#29453 · &#91;flake8-use-pathlib&#93; Add an autofix for extension access (PTH122)</a> | Closed |
 | ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/111">#111 · Add tests for scheduler settings and automatic updates</a> | Merged |
@@ -165,15 +165,16 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | pytest-dev/pytest | <a href="https://github.com/pytest-dev/pytest/pull/15197">#15197 · Escape unencodable names in PYTEST_CURRENT_TEST</a> | Open |
 | root-project/root | <a href="https://github.com/root-project/root/pull/23747">#23747 · &#91;core&#93; Fix shell detection with multiline commands</a> | Open |
 | snakemake/snakemake | <a href="https://github.com/snakemake/snakemake/pull/4346">#4346 · docs: document the minimum Pixi version for contributors</a> | Open |
+| The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11856">#11856 · dpl: respect oriented fixed macro footprints</a> | Open |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11815">#11815 · odb: avoid moved port names on buffered driver nets</a> | Open |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11814">#11814 · odb: require matching layers for pin abutment</a> | Open |
 | The-OpenROAD-Project/OpenROAD-flow-scripts | <a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4696">#4696 · fix(drc): preserve violations in nested report categories</a> | Open |
 | The-OpenROAD-Project/OpenROAD-flow-scripts | <a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4695">#4695 · fix(report): classify metric generation errors as failures</a> | Open |
-| VLSIDA/OpenRAM | <a href="https://github.com/VLSIDA/OpenRAM/pull/329">#329 · Load configuration files by path</a> | Open |
+| VLSIDA/OpenRAM | <a href="https://github.com/VLSIDA/OpenRAM/pull/329">#329 · Load configuration files by path</a> | Merged |
 
 </details>
 
-<p><sub>Public upstream PRs · Updated 2026-10-20 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
+<p><sub>Public upstream PRs · Updated 2026-10-21 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
 
 <!-- CONTRIBUTIONS:END -->
 
