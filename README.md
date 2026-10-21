@@ -73,15 +73,15 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-709d53388c68.svg">
-  <img src="./assets/contributions-709d53388c68.svg" width="100%" alt="54 public upstream PRs across 20 repositories: 19 merged, 31 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-72f2fd2f8e5f.svg">
+  <img src="./assets/contributions-72f2fd2f8e5f.svg" width="100%" alt="54 public upstream PRs across 20 repositories: 20 merged, 30 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
       <h4>IC design</h4>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>3 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>1 merged · 2 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD-flow-scripts&amp;type=pullrequests">OpenROAD flow scripts</a> <sub>2 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AKLayout%2Fklayout&amp;type=pullrequests">KLayout</a> <sub>1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a> <sub>2 merged · 1 open</sub><br>
@@ -167,7 +167,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | snakemake/snakemake | <a href="https://github.com/snakemake/snakemake/pull/4346">#4346 · docs: document the minimum Pixi version for contributors</a> | Open |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11856">#11856 · dpl: respect oriented fixed macro footprints</a> | Open |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11815">#11815 · odb: avoid moved port names on buffered driver nets</a> | Open |
-| The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11814">#11814 · odb: require matching layers for pin abutment</a> | Open |
+| The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11814">#11814 · odb: require matching layers for pin abutment</a> | Merged |
 | The-OpenROAD-Project/OpenROAD-flow-scripts | <a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4696">#4696 · fix(drc): preserve violations in nested report categories</a> | Open |
 | The-OpenROAD-Project/OpenROAD-flow-scripts | <a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4695">#4695 · fix(report): classify metric generation errors as failures</a> | Open |
 | VLSIDA/OpenRAM | <a href="https://github.com/VLSIDA/OpenRAM/pull/332">#332 · docs: clarify setup and macro compiler options</a> | Open |
