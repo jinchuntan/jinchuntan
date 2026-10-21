@@ -232,7 +232,9 @@ def replace_section(readme, content):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--from-snapshot", type=Path, help="Render a saved snapshot without network access")
+    source = parser.add_mutually_exclusive_group()
+    source.add_argument("--from-snapshot", type=Path, help="Render a saved snapshot without network access")
+    source.add_argument("--check", action="store_true", help="Check saved profile files without network access or writes")
     args = parser.parse_args()
     config = json.loads((ROOT / "profile-config.json").read_text(encoding="utf-8"))
     username = config["username"]
@@ -240,7 +242,9 @@ def main():
         raise ValueError("Invalid GitHub username")
     previous = json.loads((ROOT / "data/contributions.json").read_text(encoding="utf-8"))
     validate_snapshot(previous, username)
-    if args.from_snapshot:
+    if args.check:
+        snapshot = previous
+    elif args.from_snapshot:
         snapshot = json.loads(args.from_snapshot.read_text(encoding="utf-8"))
     else:
         records, checkpoint = collect_pull_requests(username, previous)
@@ -260,6 +264,14 @@ def main():
         compact_image: stats_svg(totals, compact=True),
         "data/contributions.json": json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n",
     }
+    if args.check:
+        stale = [path for path, content in outputs.items()
+                 if not (ROOT / path).is_file() or (ROOT / path).read_bytes() != content.encode("utf-8")]
+        if stale:
+            raise ValueError("Generated profile files are missing or out of date: " + ", ".join(stale)
+                             + ". Run python3 scripts/update_profile.py --from-snapshot data/contributions.json")
+        print("Saved profile files are consistent.")
+        return
     for path, content in outputs.items():
         (ROOT / path).write_text(content, encoding="utf-8")
     for old in (ROOT / "assets").glob("contributions*.svg"):

@@ -1,0 +1,23 @@
+name: Profile checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Test the updater
+        run: python3 -m unittest discover -s tests -v
+      - name: Check saved profile files
+        run: python3 scripts/update_profile.py --check

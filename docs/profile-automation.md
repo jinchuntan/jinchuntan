@@ -28,6 +28,7 @@ Use **Actions → Refresh profile → Run workflow** to refresh manually, or run
 
 ```sh
 python3 -m unittest discover -s tests -v
+python3 scripts/update_profile.py --check
 python3 scripts/update_profile.py
 ```
 
@@ -43,6 +44,20 @@ For an offline preview, use:
 ```sh
 python3 scripts/update_profile.py --from-snapshot data/contributions.json
 ```
+
+The **Profile checks** workflow runs on every pull request and push to `main`.
+It tests the updater and checks that the saved JSON, README contribution section
+and both summary images agree. These checks use no network access and cannot
+publish changes. Run `python3 scripts/update_profile.py --check` locally for the
+same validation without changing any files. After editing category labels or
+generated data, use the offline preview command above to regenerate the files.
+
+The refresh workflow runs these checks before fetching live data and validates
+the generated files again before committing. File-level regression tests cover
+failed API calls, duplicate or empty results and broken README markers. They
+also verify that curated text and project artwork survive a refresh.
+The checks report failures on pull requests. Making them required before a merge
+is a separate branch-protection setting.
 
 The initial 41-PR history was verified against GitHub's connected search and
 seeded in the snapshot. The updater retains that history, checks every saved
