@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-72f2fd2f8e5f.svg">
-  <img src="./assets/contributions-72f2fd2f8e5f.svg" width="100%" alt="54 public upstream PRs across 20 repositories: 20 merged, 30 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-38143d1e1e8e.svg">
+  <img src="./assets/contributions-38143d1e1e8e.svg" width="100%" alt="54 public upstream PRs across 20 repositories: 22 merged, 28 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -102,7 +102,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aprettier%2Fprettier&amp;type=pullrequests">Prettier</a> <sub>1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apytest-dev%2Fpytest&amp;type=pullrequests">pytest</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a> <sub>1 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3A8f4e%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>12 merged · 3 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3A8f4e%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>14 merged · 1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 merged</sub>
@@ -119,8 +119,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
-| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1115">#1115 · docs(compiler): add a runnable public API quickstart</a> | Open |
-| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1114">#1114 · test(compiler): cover unsigned shifts and notZero at runtime</a> | Open |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1115">#1115 · docs(compiler): add a runnable public API quickstart</a> | Merged |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1114">#1114 · test(compiler): cover unsigned shifts and notZero at runtime</a> | Merged |
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1113">#1113 · fix(tokenizer): avoid temporary source-line pairs</a> | Merged |
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1111">#1111 · fix!: use allocation-unit terminology for memory layouts</a> | Merged |
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1101">#1101 · fix(semantic-utils): remove unused block depth cache</a> | Merged |
