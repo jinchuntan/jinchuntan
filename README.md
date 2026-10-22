@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-38143d1e1e8e.svg">
-  <img src="./assets/contributions-38143d1e1e8e.svg" width="100%" alt="54 public upstream PRs across 20 repositories: 22 merged, 28 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-65476cf99e0e.svg">
+  <img src="./assets/contributions-65476cf99e0e.svg" width="100%" alt="60 public upstream PRs across 21 repositories: 22 merged, 34 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -111,11 +111,11 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub>
 </p>
 
 <details>
-<summary><strong>Explore all 54 pull requests</strong></summary>
+<summary><strong>Explore all 60 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
@@ -138,6 +138,12 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29453">#29453 · &#91;flake8-use-pathlib&#93; Add an autofix for extension access (PTH122)</a> | Closed |
 | ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/111">#111 · Add tests for scheduler settings and automatic updates</a> | Merged |
 | ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/110">#110 · Add tests for the example Slack notification plugin</a> | Merged |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1307">#1307 · feat(#1235): convert headings and text from the selection toolbar</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1306">#1306 · fix(#1081): keep records visible in narrow desktop windows</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1305">#1305 · fix(#1048): match outline text size to the file tree</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1304">#1304 · fix(#1301): preserve line breaks in saved table cells</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1303">#1303 · fix: declare the sync error formatter return type</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1302">#1302 · fix(#1300): migrate the saved search route on startup</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8847">#8847 · Hide GPUs before spawning TensorFlow data workers</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8846">#8846 · Restore packaged type information and public re-exports</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8845">#8845 · Copy existing tensors without a PyTorch warning</a> | Open |

@@ -155,6 +155,54 @@
       "updated_at": "2026-10-17T20:30:20Z"
     },
     {
+      "repository": "codexu/note-gen",
+      "number": 1302,
+      "title": "fix(#1300): migrate the saved search route on startup",
+      "status": "Open",
+      "url": "https://github.com/codexu/note-gen/pull/1302",
+      "updated_at": "2026-10-22T15:03:02Z"
+    },
+    {
+      "repository": "codexu/note-gen",
+      "number": 1303,
+      "title": "fix: declare the sync error formatter return type",
+      "status": "Open",
+      "url": "https://github.com/codexu/note-gen/pull/1303",
+      "updated_at": "2026-10-22T15:17:21Z"
+    },
+    {
+      "repository": "codexu/note-gen",
+      "number": 1304,
+      "title": "fix(#1301): preserve line breaks in saved table cells",
+      "status": "Open",
+      "url": "https://github.com/codexu/note-gen/pull/1304",
+      "updated_at": "2026-10-22T15:33:19Z"
+    },
+    {
+      "repository": "codexu/note-gen",
+      "number": 1305,
+      "title": "fix(#1048): match outline text size to the file tree",
+      "status": "Open",
+      "url": "https://github.com/codexu/note-gen/pull/1305",
+      "updated_at": "2026-10-22T15:44:21Z"
+    },
+    {
+      "repository": "codexu/note-gen",
+      "number": 1306,
+      "title": "fix(#1081): keep records visible in narrow desktop windows",
+      "status": "Open",
+      "url": "https://github.com/codexu/note-gen/pull/1306",
+      "updated_at": "2026-10-22T15:52:27Z"
+    },
+    {
+      "repository": "codexu/note-gen",
+      "number": 1307,
+      "title": "feat(#1235): convert headings and text from the selection toolbar",
+      "status": "Open",
+      "url": "https://github.com/codexu/note-gen/pull/1307",
+      "updated_at": "2026-10-22T15:55:51Z"
+    },
+    {
       "repository": "huggingface/datasets",
       "number": 8840,
       "title": "Fix indices buffer loading in Dataset.from_buffer",
@@ -436,7 +484,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "17903295737",
-    "created_at": "2026-10-22T07:43:05Z"
+    "id": "24820068361",
+    "created_at": "2026-10-21T14:54:34Z"
   }
 }
