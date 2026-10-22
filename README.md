@@ -73,15 +73,15 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-65476cf99e0e.svg">
-  <img src="./assets/contributions-65476cf99e0e.svg" width="100%" alt="60 public upstream PRs across 21 repositories: 22 merged, 34 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-e0a1716fd8d1.svg">
+  <img src="./assets/contributions-e0a1716fd8d1.svg" width="100%" alt="67 public upstream PRs across 21 repositories: 23 merged, 40 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
       <h4>IC design</h4>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>1 merged · 2 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>2 merged · 1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD-flow-scripts&amp;type=pullrequests">OpenROAD flow scripts</a> <sub>2 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AKLayout%2Fklayout&amp;type=pullrequests">KLayout</a> <sub>1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a> <sub>2 merged · 1 open</sub><br>
@@ -111,11 +111,11 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>13 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub>
 </p>
 
 <details>
-<summary><strong>Explore all 60 pull requests</strong></summary>
+<summary><strong>Explore all 67 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
@@ -138,6 +138,13 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29453">#29453 · &#91;flake8-use-pathlib&#93; Add an autofix for extension access (PTH122)</a> | Closed |
 | ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/111">#111 · Add tests for scheduler settings and automatic updates</a> | Merged |
 | ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/110">#110 · Add tests for the example Slack notification plugin</a> | Merged |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1314">#1314 · fix(#1082): reveal folders through the desktop file manager</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1313">#1313 · fix(#762): allow full URLs for HTTP speech endpoints</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1312">#1312 · fix(#1294): keep tab content paired with its file snapshot</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1311">#1311 · feat(#1056): customize HTML exports with CSS and JavaScript</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1310">#1310 · feat(#943): add Gitea image hosting</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1309">#1309 · fix(#1046): open note links from AI replies inside NoteGen</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1308">#1308 · feat(#1200): add independent inline code colors</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1307">#1307 · feat(#1235): convert headings and text from the selection toolbar</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1306">#1306 · fix(#1081): keep records visible in narrow desktop windows</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1305">#1305 · fix(#1048): match outline text size to the file tree</a> | Open |
@@ -172,7 +179,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | root-project/root | <a href="https://github.com/root-project/root/pull/23747">#23747 · &#91;core&#93; Fix shell detection with multiline commands</a> | Open |
 | snakemake/snakemake | <a href="https://github.com/snakemake/snakemake/pull/4346">#4346 · docs: document the minimum Pixi version for contributors</a> | Open |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11856">#11856 · dpl: respect oriented fixed macro footprints</a> | Open |
-| The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11815">#11815 · odb: avoid moved port names on buffered driver nets</a> | Open |
+| The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11815">#11815 · odb: avoid moved port names on buffered driver nets</a> | Merged |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11814">#11814 · odb: require matching layers for pin abutment</a> | Merged |
 | The-OpenROAD-Project/OpenROAD-flow-scripts | <a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4696">#4696 · fix(drc): preserve violations in nested report categories</a> | Open |
 | The-OpenROAD-Project/OpenROAD-flow-scripts | <a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4695">#4695 · fix(report): classify metric generation errors as failures</a> | Open |
