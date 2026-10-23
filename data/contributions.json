@@ -523,6 +523,14 @@
       "updated_at": "2026-10-23T12:33:01Z"
     },
     {
+      "repository": "openhwfoundation/cv32e40p",
+      "number": 1087,
+      "title": "Fix APU tracer clock and reset connections",
+      "status": "Open",
+      "url": "https://github.com/openhwfoundation/cv32e40p/pull/1087",
+      "updated_at": "2026-10-23T12:41:45Z"
+    },
+    {
       "repository": "pandas-dev/pandas",
       "number": 71269,
       "title": "BUG preserve error bars when plot labels are changed",
@@ -644,7 +652,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "24922113433",
-    "created_at": "2026-10-22T15:52:18Z"
+    "id": "24942405778",
+    "created_at": "2026-10-22T19:44:28Z"
   }
 }
