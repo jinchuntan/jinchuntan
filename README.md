@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-c5f19d111b37.svg">
-  <img src="./assets/contributions-c5f19d111b37.svg" width="100%" alt="71 public upstream PRs across 22 repositories: 27 merged, 40 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-77b7351ef8e0.svg">
+  <img src="./assets/contributions-77b7351ef8e0.svg" width="100%" alt="80 public upstream PRs across 24 repositories: 27 merged, 49 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -111,11 +111,11 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>4 merged · 9 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>4 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>4 merged · 9 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>6 open</sub>
 </p>
 
 <details>
-<summary><strong>Explore all 71 pull requests</strong></summary>
+<summary><strong>Explore all 80 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
@@ -160,6 +160,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8841">#8841 · Handle UTF-8 BOMs in every JSON input file</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8840">#8840 · Fix indices buffer loading in Dataset.from_buffer</a> | Merged |
 | huggingface/lerobot | <a href="https://github.com/huggingface/lerobot/pull/5004">#5004 · Add image size and JPEG quality controls to dataset viewer</a> | Open |
+| khoj-ai/khoj | <a href="https://github.com/khoj-ai/khoj/pull/1459">#1459 · feat(email): support SMTP for self-hosted installs</a> | Open |
 | khoj-ai/khoj | <a href="https://github.com/khoj-ai/khoj/pull/1458">#1458 · fix(emacs): render Org file titles as search headings</a> | Open |
 | khoj-ai/khoj | <a href="https://github.com/khoj-ai/khoj/pull/1457">#1457 · fix(emacs): show PDF filenames and page numbers in search</a> | Open |
 | khoj-ai/khoj | <a href="https://github.com/khoj-ai/khoj/pull/1456">#1456 · Keep web search connectivity checks off the event loop</a> | Open |
@@ -172,9 +173,17 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44372">#44372 · refactor(web): share workflow comment queries and mutations</a> | Open |
 | langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44360">#44360 · refactor(web): use Console Query in the install form</a> | Open |
 | langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44359">#44359 · fix(web): avoid redundant indexing notifications</a> | Open |
+| lfnovo/open-notebook | <a href="https://github.com/lfnovo/open-notebook/pull/1525">#1525 · fix(search): require an embedding model for the Ask shortcut</a> | Open |
+| lfnovo/open-notebook | <a href="https://github.com/lfnovo/open-notebook/pull/1524">#1524 · fix(i18n): pluralize search result counts</a> | Open |
 | librelane/librelane | <a href="https://github.com/librelane/librelane/pull/1053">#1053 · KLayout: make DEF layer map optional</a> | Open |
 | ollama/ollama | <a href="https://github.com/ollama/ollama/pull/19097">#19097 · Avoid reusing runners after cancelled startup</a> | Open |
 | ollama/ollama | <a href="https://github.com/ollama/ollama/pull/19096">#19096 · Handle servers that ignore download ranges</a> | Open |
+| openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1086">#1086 · Use register fields in the cv.insertr range constraint</a> | Open |
+| openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1085">#1085 · Backport FPU parameter compatibility fix</a> | Open |
+| openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1084">#1084 · Clarify FPU instruction issue limits</a> | Open |
+| openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1083">#1083 · Fix Bender source list for the current core</a> | Open |
+| openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1082">#1082 · Document misaligned access atomicity</a> | Open |
+| openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1081">#1081 · Fix nested port lists in example constraints</a> | Open |
 | pandas-dev/pandas | <a href="https://github.com/pandas-dev/pandas/pull/71269">#71269 · BUG preserve error bars when plot labels are changed</a> | Open |
 | piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/14">#14 · Add Bun test runner detection</a> | Merged |
 | prettier/prettier | <a href="https://github.com/prettier/prettier/pull/20312">#20312 · Keep method chains stable when the last argument expands</a> | Closed |
