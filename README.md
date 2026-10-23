@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-e0a1716fd8d1.svg">
-  <img src="./assets/contributions-e0a1716fd8d1.svg" width="100%" alt="67 public upstream PRs across 21 repositories: 23 merged, 40 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-c5f19d111b37.svg">
+  <img src="./assets/contributions-c5f19d111b37.svg" width="100%" alt="71 public upstream PRs across 22 repositories: 27 merged, 40 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -111,11 +111,11 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>13 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>4 merged · 9 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>4 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub>
 </p>
 
 <details>
-<summary><strong>Explore all 67 pull requests</strong></summary>
+<summary><strong>Explore all 71 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
@@ -146,11 +146,11 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1309">#1309 · fix(#1046): open note links from AI replies inside NoteGen</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1308">#1308 · feat(#1200): add independent inline code colors</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1307">#1307 · feat(#1235): convert headings and text from the selection toolbar</a> | Open |
-| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1306">#1306 · fix(#1081): keep records visible in narrow desktop windows</a> | Open |
-| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1305">#1305 · fix(#1048): match outline text size to the file tree</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1306">#1306 · fix(#1081): keep records visible in narrow desktop windows</a> | Merged |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1305">#1305 · fix(#1048): match outline text size to the file tree</a> | Merged |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1304">#1304 · fix(#1301): preserve line breaks in saved table cells</a> | Open |
-| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1303">#1303 · fix: declare the sync error formatter return type</a> | Open |
-| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1302">#1302 · fix(#1300): migrate the saved search route on startup</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1303">#1303 · fix: declare the sync error formatter return type</a> | Merged |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1302">#1302 · fix(#1300): migrate the saved search route on startup</a> | Merged |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8847">#8847 · Hide GPUs before spawning TensorFlow data workers</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8846">#8846 · Restore packaged type information and public re-exports</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8845">#8845 · Copy existing tensors without a PyTorch warning</a> | Open |
@@ -160,6 +160,10 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8841">#8841 · Handle UTF-8 BOMs in every JSON input file</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8840">#8840 · Fix indices buffer loading in Dataset.from_buffer</a> | Merged |
 | huggingface/lerobot | <a href="https://github.com/huggingface/lerobot/pull/5004">#5004 · Add image size and JPEG quality controls to dataset viewer</a> | Open |
+| khoj-ai/khoj | <a href="https://github.com/khoj-ai/khoj/pull/1458">#1458 · fix(emacs): render Org file titles as search headings</a> | Open |
+| khoj-ai/khoj | <a href="https://github.com/khoj-ai/khoj/pull/1457">#1457 · fix(emacs): show PDF filenames and page numbers in search</a> | Open |
+| khoj-ai/khoj | <a href="https://github.com/khoj-ai/khoj/pull/1456">#1456 · Keep web search connectivity checks off the event loop</a> | Open |
+| khoj-ai/khoj | <a href="https://github.com/khoj-ai/khoj/pull/1455">#1455 · Fix public agent discovery on self-hosted installs</a> | Open |
 | KLayout/klayout | <a href="https://github.com/KLayout/klayout/pull/2516">#2516 · Use explicit LEF files without directory scanning</a> | Closed |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11975">#11975 · feat(mcp-adapters): support progress timeout resets</a> | Open |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11974">#11974 · fix(google-common): preserve anyOf tool schemas</a> | Open |
@@ -189,7 +193,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 
 </details>
 
-<p><sub>Public upstream PRs · Updated 2026-10-22 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
+<p><sub>Public upstream PRs · Updated 2026-10-23 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
 
 <!-- CONTRIBUTIONS:END -->
 

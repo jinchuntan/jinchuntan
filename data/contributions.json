@@ -1,6 +1,6 @@
 {
   "username": "jinchuntan",
-  "checked_on": "2026-10-22",
+  "checked_on": "2026-10-23",
   "pull_requests": [
     {
       "repository": "8f4e/8f4e",
@@ -158,17 +158,17 @@
       "repository": "codexu/note-gen",
       "number": 1302,
       "title": "fix(#1300): migrate the saved search route on startup",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/codexu/note-gen/pull/1302",
-      "updated_at": "2026-10-22T15:03:02Z"
+      "updated_at": "2026-10-23T02:35:26Z"
     },
     {
       "repository": "codexu/note-gen",
       "number": 1303,
       "title": "fix: declare the sync error formatter return type",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/codexu/note-gen/pull/1303",
-      "updated_at": "2026-10-22T15:17:21Z"
+      "updated_at": "2026-10-23T03:22:54Z"
     },
     {
       "repository": "codexu/note-gen",
@@ -182,17 +182,17 @@
       "repository": "codexu/note-gen",
       "number": 1305,
       "title": "fix(#1048): match outline text size to the file tree",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/codexu/note-gen/pull/1305",
-      "updated_at": "2026-10-22T15:44:21Z"
+      "updated_at": "2026-10-23T03:23:33Z"
     },
     {
       "repository": "codexu/note-gen",
       "number": 1306,
       "title": "fix(#1081): keep records visible in narrow desktop windows",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/codexu/note-gen/pull/1306",
-      "updated_at": "2026-10-22T15:52:27Z"
+      "updated_at": "2026-10-23T03:40:26Z"
     },
     {
       "repository": "codexu/note-gen",
@@ -329,6 +329,38 @@
       "status": "Open",
       "url": "https://github.com/huggingface/lerobot/pull/5004",
       "updated_at": "2026-10-19T00:39:52Z"
+    },
+    {
+      "repository": "khoj-ai/khoj",
+      "number": 1455,
+      "title": "Fix public agent discovery on self-hosted installs",
+      "status": "Open",
+      "url": "https://github.com/khoj-ai/khoj/pull/1455",
+      "updated_at": "2026-10-23T02:56:01Z"
+    },
+    {
+      "repository": "khoj-ai/khoj",
+      "number": 1456,
+      "title": "Keep web search connectivity checks off the event loop",
+      "status": "Open",
+      "url": "https://github.com/khoj-ai/khoj/pull/1456",
+      "updated_at": "2026-10-23T03:53:05Z"
+    },
+    {
+      "repository": "khoj-ai/khoj",
+      "number": 1457,
+      "title": "fix(emacs): show PDF filenames and page numbers in search",
+      "status": "Open",
+      "url": "https://github.com/khoj-ai/khoj/pull/1457",
+      "updated_at": "2026-10-23T04:17:41Z"
+    },
+    {
+      "repository": "khoj-ai/khoj",
+      "number": 1458,
+      "title": "fix(emacs): render Org file titles as search headings",
+      "status": "Open",
+      "url": "https://github.com/khoj-ai/khoj/pull/1458",
+      "updated_at": "2026-10-23T04:35:10Z"
     },
     {
       "repository": "KLayout/klayout",
@@ -540,7 +572,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "24849052550",
-    "created_at": "2026-10-22T15:35:10Z"
+    "id": "17985370933",
+    "created_at": "2026-10-23T03:40:26Z"
   }
 }
