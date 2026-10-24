@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-8879567ae43b.svg">
-  <img src="./assets/contributions-8879567ae43b.svg" width="100%" alt="81 public upstream PRs across 24 repositories: 27 merged, 50 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-3364aa4a8562.svg">
+  <img src="./assets/contributions-3364aa4a8562.svg" width="100%" alt="82 public upstream PRs across 24 repositories: 27 merged, 51 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -104,7 +104,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3A8f4e%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>14 merged · 1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged · 1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 merged</sub>
     </td>
   </tr>
@@ -115,7 +115,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </p>
 
 <details>
-<summary><strong>Explore all 81 pull requests</strong></summary>
+<summary><strong>Explore all 82 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
@@ -186,6 +186,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1082">#1082 · Document misaligned access atomicity</a> | Open |
 | openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1081">#1081 · Fix nested port lists in example constraints</a> | Open |
 | pandas-dev/pandas | <a href="https://github.com/pandas-dev/pandas/pull/71269">#71269 · BUG preserve error bars when plot labels are changed</a> | Open |
+| piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/22">#22 · Add Netlify configuration preflight checks</a> | Open |
 | piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/14">#14 · Add Bun test runner detection</a> | Merged |
 | prettier/prettier | <a href="https://github.com/prettier/prettier/pull/20312">#20312 · Keep method chains stable when the last argument expands</a> | Closed |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1007">#1007 · fix: use the package version in OpenAPI</a> | Merged |
@@ -203,7 +204,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 
 </details>
 
-<p><sub>Public upstream PRs · Updated 2026-10-23 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
+<p><sub>Public upstream PRs · Updated 2026-10-24 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
 
 <!-- CONTRIBUTIONS:END -->
 

@@ -2,7 +2,7 @@
 <title id="title">Public upstream pull request summary</title>
 <rect x="4" y="4" width="288" height="138" rx="12" fill="#f6f3ea" stroke="#e3e3d9"/>
 <rect x="24" y="25" width="24" height="4" rx="2" fill="#19352f"/>
-<text x="24" y="88" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" fill="#19352f">81</text>
+<text x="24" y="88" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" fill="#19352f">82</text>
 <text x="24" y="119" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#496257">Upstream PRs</text>
 <rect x="304" y="4" width="288" height="138" rx="12" fill="#f6f3ea" stroke="#e3e3d9"/>
 <rect x="324" y="25" width="24" height="4" rx="2" fill="#8050a4"/>
@@ -10,7 +10,7 @@
 <text x="324" y="119" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#496257">Merged</text>
 <rect x="604" y="4" width="288" height="138" rx="12" fill="#f6f3ea" stroke="#e3e3d9"/>
 <rect x="624" y="25" width="24" height="4" rx="2" fill="#28724e"/>
-<text x="624" y="88" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" fill="#28724e">50</text>
+<text x="624" y="88" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" fill="#28724e">51</text>
 <text x="624" y="119" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#496257">Open</text>
 <rect x="904" y="4" width="288" height="138" rx="12" fill="#f6f3ea" stroke="#e3e3d9"/>
 <rect x="924" y="25" width="24" height="4" rx="2" fill="#c75132"/>
