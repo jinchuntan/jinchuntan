@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-3364aa4a8562.svg">
-  <img src="./assets/contributions-3364aa4a8562.svg" width="100%" alt="82 public upstream PRs across 24 repositories: 27 merged, 51 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-ef5bd92d12f1.svg">
+  <img src="./assets/contributions-ef5bd92d12f1.svg" width="100%" alt="82 public upstream PRs across 24 repositories: 28 merged, 50 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>4 merged · 9 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>7 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>5 merged · 8 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>7 open</sub>
 </p>
 
 <details>
@@ -145,7 +145,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1310">#1310 · feat(#943): add Gitea image hosting</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1309">#1309 · fix(#1046): open note links from AI replies inside NoteGen</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1308">#1308 · feat(#1200): add independent inline code colors</a> | Open |
-| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1307">#1307 · feat(#1235): convert headings and text from the selection toolbar</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1307">#1307 · feat(#1235): convert headings and text from the selection toolbar</a> | Merged |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1306">#1306 · fix(#1081): keep records visible in narrow desktop windows</a> | Merged |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1305">#1305 · fix(#1048): match outline text size to the file tree</a> | Merged |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1304">#1304 · fix(#1301): preserve line breaks in saved table cells</a> | Open |

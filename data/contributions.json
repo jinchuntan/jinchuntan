@@ -198,9 +198,9 @@
       "repository": "codexu/note-gen",
       "number": 1307,
       "title": "feat(#1235): convert headings and text from the selection toolbar",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/codexu/note-gen/pull/1307",
-      "updated_at": "2026-10-22T15:55:51Z"
+      "updated_at": "2026-10-24T10:32:25Z"
     },
     {
       "repository": "codexu/note-gen",
@@ -660,7 +660,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "24995484280",
-    "created_at": "2026-10-23T07:37:07Z"
+    "id": "25021944666",
+    "created_at": "2026-10-23T11:56:17Z"
   }
 }
