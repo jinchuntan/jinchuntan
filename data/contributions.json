@@ -238,9 +238,9 @@
       "repository": "codexu/note-gen",
       "number": 1312,
       "title": "fix(#1294): keep tab content paired with its file snapshot",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/codexu/note-gen/pull/1312",
-      "updated_at": "2026-10-22T19:21:14Z"
+      "updated_at": "2026-10-25T10:27:33Z"
     },
     {
       "repository": "codexu/note-gen",
@@ -576,7 +576,7 @@
       "title": "fix: reject blank and non-string MCP list IDs",
       "status": "Open",
       "url": "https://github.com/pyrite-wiki/pyrite/pull/1333",
-      "updated_at": "2026-10-25T02:29:19Z"
+      "updated_at": "2026-10-25T11:13:09Z"
     },
     {
       "repository": "pyrite-wiki/pyrite",
@@ -584,15 +584,15 @@
       "title": "fix: preserve recovery advice for disk errors",
       "status": "Open",
       "url": "https://github.com/pyrite-wiki/pyrite/pull/1335",
-      "updated_at": "2026-10-25T04:40:06Z"
+      "updated_at": "2026-10-25T11:16:28Z"
     },
     {
       "repository": "pyrite-wiki/pyrite",
       "number": 1336,
       "title": "fix: find Python for standard-library hooks",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/pyrite-wiki/pyrite/pull/1336",
-      "updated_at": "2026-10-25T04:53:36Z"
+      "updated_at": "2026-10-25T11:30:15Z"
     },
     {
       "repository": "pyrite-wiki/pyrite",
@@ -600,7 +600,7 @@
       "title": "fix: resolve the KB for optional epic filters",
       "status": "Open",
       "url": "https://github.com/pyrite-wiki/pyrite/pull/1337",
-      "updated_at": "2026-10-25T04:58:51Z"
+      "updated_at": "2026-10-25T12:25:11Z"
     },
     {
       "repository": "pyrite-wiki/pyrite",
@@ -608,7 +608,7 @@
       "title": "fix: resolve the KB for QA entry filters",
       "status": "Open",
       "url": "https://github.com/pyrite-wiki/pyrite/pull/1338",
-      "updated_at": "2026-10-25T05:09:03Z"
+      "updated_at": "2026-10-25T11:16:17Z"
     },
     {
       "repository": "pyrite-wiki/pyrite",
@@ -616,7 +616,47 @@
       "title": "fix: report malformed files during validation",
       "status": "Open",
       "url": "https://github.com/pyrite-wiki/pyrite/pull/1339",
-      "updated_at": "2026-10-25T05:14:38Z"
+      "updated_at": "2026-10-25T11:52:23Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1343,
+      "title": "fix: derive KB counts and health from current entries",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1343",
+      "updated_at": "2026-10-25T11:57:11Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1344,
+      "title": "fix: persist work logs and MCP ADRs before reporting success",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1344",
+      "updated_at": "2026-10-25T12:26:43Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1345,
+      "title": "fix: explain when an MCP tool requires a higher tier",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1345",
+      "updated_at": "2026-10-25T11:57:08Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1346,
+      "title": "fix: validate entry models when updating entries",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1346",
+      "updated_at": "2026-10-25T11:57:06Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1347,
+      "title": "fix: report inbound links when deleting an entry",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1347",
+      "updated_at": "2026-10-25T12:36:33Z"
     },
     {
       "repository": "pytest-dev/pytest",
@@ -708,7 +748,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "25099555816",
-    "created_at": "2026-10-25T04:30:58Z"
+    "id": "18156632184",
+    "created_at": "2026-10-25T12:34:37Z"
   }
 }

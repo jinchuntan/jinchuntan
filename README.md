@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-25f03dc97c1c.svg">
-  <img src="./assets/contributions-25f03dc97c1c.svg" width="100%" alt="88 public upstream PRs across 24 repositories: 28 merged, 56 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-5ca6aa139e9b.svg">
+  <img src="./assets/contributions-5ca6aa139e9b.svg" width="100%" alt="93 public upstream PRs across 24 repositories: 30 merged, 59 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -105,17 +105,17 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3A8f4e%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>14 merged · 1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged · 1 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>1 merged · 6 open</sub>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>2 merged · 10 open</sub>
     </td>
   </tr>
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>5 merged · 8 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>7 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>7 open</sub>
 </p>
 
 <details>
-<summary><strong>Explore all 88 pull requests</strong></summary>
+<summary><strong>Explore all 93 pull requests</strong></summary>
 
 | Repository | Pull request | Status |
 | :--- | :--- | :--- |
@@ -140,7 +140,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/110">#110 · Add tests for the example Slack notification plugin</a> | Merged |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1314">#1314 · fix(#1082): reveal folders through the desktop file manager</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1313">#1313 · fix(#762): allow full URLs for HTTP speech endpoints</a> | Open |
-| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1312">#1312 · fix(#1294): keep tab content paired with its file snapshot</a> | Open |
+| codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1312">#1312 · fix(#1294): keep tab content paired with its file snapshot</a> | Merged |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1311">#1311 · feat(#1056): customize HTML exports with CSS and JavaScript</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1310">#1310 · feat(#943): add Gitea image hosting</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1309">#1309 · fix(#1046): open note links from AI replies inside NoteGen</a> | Open |
@@ -189,10 +189,15 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/22">#22 · Add Netlify configuration preflight checks</a> | Open |
 | piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/14">#14 · Add Bun test runner detection</a> | Merged |
 | prettier/prettier | <a href="https://github.com/prettier/prettier/pull/20312">#20312 · Keep method chains stable when the last argument expands</a> | Closed |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1347">#1347 · fix: report inbound links when deleting an entry</a> | Open |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1346">#1346 · fix: validate entry models when updating entries</a> | Open |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1345">#1345 · fix: explain when an MCP tool requires a higher tier</a> | Open |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1344">#1344 · fix: persist work logs and MCP ADRs before reporting success</a> | Open |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1343">#1343 · fix: derive KB counts and health from current entries</a> | Open |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1339">#1339 · fix: report malformed files during validation</a> | Open |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1338">#1338 · fix: resolve the KB for QA entry filters</a> | Open |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1337">#1337 · fix: resolve the KB for optional epic filters</a> | Open |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1336">#1336 · fix: find Python for standard-library hooks</a> | Open |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1336">#1336 · fix: find Python for standard-library hooks</a> | Merged |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1335">#1335 · fix: preserve recovery advice for disk errors</a> | Open |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1333">#1333 · fix: reject blank and non-string MCP list IDs</a> | Open |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1007">#1007 · fix: use the package version in OpenAPI</a> | Merged |
