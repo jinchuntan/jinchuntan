@@ -1,6 +1,6 @@
 {
   "username": "jinchuntan",
-  "checked_on": "2026-10-24",
+  "checked_on": "2026-10-25",
   "pull_requests": [
     {
       "repository": "8f4e/8f4e",
@@ -571,6 +571,54 @@
       "updated_at": "2026-10-19T18:51:45Z"
     },
     {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1333,
+      "title": "fix: reject blank and non-string MCP list IDs",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1333",
+      "updated_at": "2026-10-25T02:29:19Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1335,
+      "title": "fix: preserve recovery advice for disk errors",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1335",
+      "updated_at": "2026-10-25T04:40:06Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1336,
+      "title": "fix: find Python for standard-library hooks",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1336",
+      "updated_at": "2026-10-25T04:53:36Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1337,
+      "title": "fix: resolve the KB for optional epic filters",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1337",
+      "updated_at": "2026-10-25T04:58:51Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1338,
+      "title": "fix: resolve the KB for QA entry filters",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1338",
+      "updated_at": "2026-10-25T05:09:03Z"
+    },
+    {
+      "repository": "pyrite-wiki/pyrite",
+      "number": 1339,
+      "title": "fix: report malformed files during validation",
+      "status": "Open",
+      "url": "https://github.com/pyrite-wiki/pyrite/pull/1339",
+      "updated_at": "2026-10-25T05:14:38Z"
+    },
+    {
       "repository": "pytest-dev/pytest",
       "number": 15197,
       "title": "Escape unencodable names in PYTEST_CURRENT_TEST",
@@ -660,7 +708,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "25029287844",
-    "created_at": "2026-10-23T12:40:14Z"
+    "id": "25099555816",
+    "created_at": "2026-10-25T04:30:58Z"
   }
 }
