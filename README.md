@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-5ca6aa139e9b.svg">
-  <img src="./assets/contributions-5ca6aa139e9b.svg" width="100%" alt="93 public upstream PRs across 24 repositories: 30 merged, 59 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-2f7e00d20a30.svg">
+  <img src="./assets/contributions-2f7e00d20a30.svg" width="100%" alt="93 public upstream PRs across 24 repositories: 40 merged, 49 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -105,7 +105,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3A8f4e%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>14 merged · 1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged · 1 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>2 merged · 10 open</sub>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>12 merged</sub>
     </td>
   </tr>
 </table>
@@ -189,17 +189,17 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/22">#22 · Add Netlify configuration preflight checks</a> | Open |
 | piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/14">#14 · Add Bun test runner detection</a> | Merged |
 | prettier/prettier | <a href="https://github.com/prettier/prettier/pull/20312">#20312 · Keep method chains stable when the last argument expands</a> | Closed |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1347">#1347 · fix: report inbound links when deleting an entry</a> | Open |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1346">#1346 · fix: validate entry models when updating entries</a> | Open |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1345">#1345 · fix: explain when an MCP tool requires a higher tier</a> | Open |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1344">#1344 · fix: persist work logs and MCP ADRs before reporting success</a> | Open |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1343">#1343 · fix: derive KB counts and health from current entries</a> | Open |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1339">#1339 · fix: report malformed files during validation</a> | Open |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1338">#1338 · fix: resolve the KB for QA entry filters</a> | Open |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1337">#1337 · fix: resolve the KB for optional epic filters</a> | Open |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1347">#1347 · fix: report inbound links when deleting an entry</a> | Merged |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1346">#1346 · fix: validate entry models when updating entries</a> | Merged |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1345">#1345 · fix: explain when an MCP tool requires a higher tier</a> | Merged |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1344">#1344 · fix: persist work logs and MCP ADRs before reporting success</a> | Merged |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1343">#1343 · fix: derive KB counts and health from current entries</a> | Merged |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1339">#1339 · fix: report malformed files during validation</a> | Merged |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1338">#1338 · fix: resolve the KB for QA entry filters</a> | Merged |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1337">#1337 · fix: resolve the KB for optional epic filters</a> | Merged |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1336">#1336 · fix: find Python for standard-library hooks</a> | Merged |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1335">#1335 · fix: preserve recovery advice for disk errors</a> | Open |
-| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1333">#1333 · fix: reject blank and non-string MCP list IDs</a> | Open |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1335">#1335 · fix: preserve recovery advice for disk errors</a> | Merged |
+| pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1333">#1333 · fix: reject blank and non-string MCP list IDs</a> | Merged |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1007">#1007 · fix: use the package version in OpenAPI</a> | Merged |
 | pytest-dev/pytest | <a href="https://github.com/pytest-dev/pytest/pull/15197">#15197 · Escape unencodable names in PYTEST_CURRENT_TEST</a> | Open |
 | root-project/root | <a href="https://github.com/root-project/root/pull/23747">#23747 · &#91;core&#93; Fix shell detection with multiline commands</a> | Open |
