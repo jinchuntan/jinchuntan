@@ -742,13 +742,13 @@
       "repository": "VLSIDA/OpenRAM",
       "number": 332,
       "title": "docs: clarify setup and macro compiler options",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/VLSIDA/OpenRAM/pull/332",
-      "updated_at": "2026-10-21T01:34:45Z"
+      "updated_at": "2026-10-27T16:42:11Z"
     }
   ],
   "event_checkpoint": {
-    "id": "25282776360",
-    "created_at": "2026-10-26T16:21:23Z"
+    "id": "25351649339",
+    "created_at": "2026-10-26T15:45:22Z"
   }
 }

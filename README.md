@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-2f7e00d20a30.svg">
-  <img src="./assets/contributions-2f7e00d20a30.svg" width="100%" alt="93 public upstream PRs across 24 repositories: 40 merged, 49 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-1d2c39915faa.svg">
+  <img src="./assets/contributions-1d2c39915faa.svg" width="100%" alt="93 public upstream PRs across 24 repositories: 41 merged, 48 open, 4 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -84,7 +84,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>2 merged · 1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD-flow-scripts&amp;type=pullrequests">OpenROAD flow scripts</a> <sub>2 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AKLayout%2Fklayout&amp;type=pullrequests">KLayout</a> <sub>1 closed</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a> <sub>2 merged · 1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a> <sub>3 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alibrelane%2Flibrelane&amp;type=pullrequests">LibreLane</a> <sub>1 open</sub>
     </td>
     <td width="33%" valign="top">
@@ -209,7 +209,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11814">#11814 · odb: require matching layers for pin abutment</a> | Merged |
 | The-OpenROAD-Project/OpenROAD-flow-scripts | <a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4696">#4696 · fix(drc): preserve violations in nested report categories</a> | Open |
 | The-OpenROAD-Project/OpenROAD-flow-scripts | <a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4695">#4695 · fix(report): classify metric generation errors as failures</a> | Open |
-| VLSIDA/OpenRAM | <a href="https://github.com/VLSIDA/OpenRAM/pull/332">#332 · docs: clarify setup and macro compiler options</a> | Open |
+| VLSIDA/OpenRAM | <a href="https://github.com/VLSIDA/OpenRAM/pull/332">#332 · docs: clarify setup and macro compiler options</a> | Merged |
 | VLSIDA/OpenRAM | <a href="https://github.com/VLSIDA/OpenRAM/pull/331">#331 · Report configuration syntax errors through the normal diagnostic</a> | Merged |
 | VLSIDA/OpenRAM | <a href="https://github.com/VLSIDA/OpenRAM/pull/329">#329 · Load configuration files by path</a> | Merged |
 
