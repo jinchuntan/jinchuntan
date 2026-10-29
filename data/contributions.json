@@ -480,7 +480,7 @@
       "title": "Fix nested port lists in example constraints",
       "status": "Open",
       "url": "https://github.com/openhwfoundation/cv32e40p/pull/1081",
-      "updated_at": "2026-10-23T11:24:33Z"
+      "updated_at": "2026-10-29T16:31:43Z"
     },
     {
       "repository": "openhwfoundation/cv32e40p",
@@ -488,7 +488,7 @@
       "title": "Document misaligned access atomicity",
       "status": "Open",
       "url": "https://github.com/openhwfoundation/cv32e40p/pull/1082",
-      "updated_at": "2026-10-23T11:42:25Z"
+      "updated_at": "2026-10-29T16:24:22Z"
     },
     {
       "repository": "openhwfoundation/cv32e40p",
@@ -496,7 +496,7 @@
       "title": "Fix Bender source list for the current core",
       "status": "Open",
       "url": "https://github.com/openhwfoundation/cv32e40p/pull/1083",
-      "updated_at": "2026-10-23T11:57:23Z"
+      "updated_at": "2026-10-29T16:19:00Z"
     },
     {
       "repository": "openhwfoundation/cv32e40p",
@@ -748,7 +748,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "18565224622",
-    "created_at": "2026-10-29T13:53:03Z"
+    "id": "18569087846",
+    "created_at": "2026-10-29T14:20:30Z"
   }
 }
