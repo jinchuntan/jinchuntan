@@ -64,7 +64,7 @@
       "title": "fix(memory-reference-resolver): preserve float64 metadata bounds",
       "status": "Open",
       "url": "https://github.com/8f4e/8f4e/pull/1091",
-      "updated_at": "2026-10-20T07:30:29Z"
+      "updated_at": "2026-11-01T11:44:21Z"
     },
     {
       "repository": "8f4e/8f4e",
@@ -670,9 +670,9 @@
       "repository": "root-project/root",
       "number": 23747,
       "title": "[core] Fix shell detection with multiline commands",
-      "status": "Open",
+      "status": "Closed",
       "url": "https://github.com/root-project/root/pull/23747",
-      "updated_at": "2026-10-21T07:05:09Z"
+      "updated_at": "2026-11-01T10:59:41Z"
     },
     {
       "repository": "snakemake/snakemake",

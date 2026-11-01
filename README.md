@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-1d68f903da29.svg">
-  <img src="./assets/contributions-1d68f903da29.svg" width="100%" alt="93 public upstream PRs across 24 repositories: 44 merged, 45 open, 4 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-b6a87cfd97b5.svg">
+  <img src="./assets/contributions-b6a87cfd97b5.svg" width="100%" alt="93 public upstream PRs across 24 repositories: 44 merged, 44 open, 5 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -94,7 +94,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahuggingface%2Flerobot&amp;type=pullrequests">LeRobot</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aollama%2Follama&amp;type=pullrequests">Ollama</a> <sub>2 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apandas-dev%2Fpandas&amp;type=pullrequests">pandas</a> <sub>1 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aroot-project%2Froot&amp;type=pullrequests">ROOT</a> <sub>1 open</sub>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aroot-project%2Froot&amp;type=pullrequests">ROOT</a> <sub>1 closed</sub>
     </td>
     <td width="33%" valign="top">
       <h4>Developer tools</h4>
@@ -202,7 +202,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1333">#1333 · fix: reject blank and non-string MCP list IDs</a> | Merged |
 | pyrite-wiki/pyrite | <a href="https://github.com/pyrite-wiki/pyrite/pull/1007">#1007 · fix: use the package version in OpenAPI</a> | Merged |
 | pytest-dev/pytest | <a href="https://github.com/pytest-dev/pytest/pull/15197">#15197 · Escape unencodable names in PYTEST_CURRENT_TEST</a> | Open |
-| root-project/root | <a href="https://github.com/root-project/root/pull/23747">#23747 · &#91;core&#93; Fix shell detection with multiline commands</a> | Open |
+| root-project/root | <a href="https://github.com/root-project/root/pull/23747">#23747 · &#91;core&#93; Fix shell detection with multiline commands</a> | Closed |
 | snakemake/snakemake | <a href="https://github.com/snakemake/snakemake/pull/4346">#4346 · docs: document the minimum Pixi version for contributors</a> | Merged |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11856">#11856 · dpl: respect oriented fixed macro footprints</a> | Open |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11815">#11815 · odb: avoid moved port names on buffered driver nets</a> | Merged |
