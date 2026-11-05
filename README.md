@@ -73,15 +73,15 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-b6a87cfd97b5.svg">
-  <img src="./assets/contributions-b6a87cfd97b5.svg" width="100%" alt="93 public upstream PRs across 24 repositories: 44 merged, 44 open, 5 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-e5d8098c2122.svg">
+  <img src="./assets/contributions-e5d8098c2122.svg" width="100%" alt="93 public upstream PRs across 24 repositories: 45 merged, 43 open, 5 closed without merging.">
 </picture>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
       <h4>IC design</h4>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>2 merged · 1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD&amp;type=pullrequests">OpenROAD</a> <sub>3 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AThe-OpenROAD-Project%2FOpenROAD-flow-scripts&amp;type=pullrequests">OpenROAD flow scripts</a> <sub>2 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AKLayout%2Fklayout&amp;type=pullrequests">KLayout</a> <sub>1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AVLSIDA%2FOpenRAM&amp;type=pullrequests">OpenRAM</a> <sub>3 merged</sub><br>
@@ -204,7 +204,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | pytest-dev/pytest | <a href="https://github.com/pytest-dev/pytest/pull/15197">#15197 · Escape unencodable names in PYTEST_CURRENT_TEST</a> | Open |
 | root-project/root | <a href="https://github.com/root-project/root/pull/23747">#23747 · &#91;core&#93; Fix shell detection with multiline commands</a> | Closed |
 | snakemake/snakemake | <a href="https://github.com/snakemake/snakemake/pull/4346">#4346 · docs: document the minimum Pixi version for contributors</a> | Merged |
-| The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11856">#11856 · dpl: respect oriented fixed macro footprints</a> | Open |
+| The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11856">#11856 · dpl: respect oriented fixed macro footprints</a> | Merged |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11815">#11815 · odb: avoid moved port names on buffered driver nets</a> | Merged |
 | The-OpenROAD-Project/OpenROAD | <a href="https://github.com/The-OpenROAD-Project/OpenROAD/pull/11814">#11814 · odb: require matching layers for pin abutment</a> | Merged |
 | The-OpenROAD-Project/OpenROAD-flow-scripts | <a href="https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/pull/4696">#4696 · fix(drc): preserve violations in nested report categories</a> | Open |
@@ -215,7 +215,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 
 </details>
 
-<p><sub>Public upstream PRs · Updated 2026-11-04 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
+<p><sub>Public upstream PRs · Updated 2026-11-05 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
 
 <!-- CONTRIBUTIONS:END -->
 
