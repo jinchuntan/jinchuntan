@@ -454,9 +454,9 @@
       "repository": "lfnovo/open-notebook",
       "number": 1525,
       "title": "fix(search): require an embedding model for the Ask shortcut",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/lfnovo/open-notebook/pull/1525",
-      "updated_at": "2026-10-23T06:56:23Z"
+      "updated_at": "2026-11-13T17:57:11Z"
     },
     {
       "repository": "librelane/librelane",

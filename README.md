@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-c7a9fca98ae9.svg">
-  <img src="./assets/contributions-c7a9fca98ae9.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 47 merged, 42 open, 5 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-d6aea31e1ef4.svg">
+  <img src="./assets/contributions-d6aea31e1ef4.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 48 merged, 41 open, 5 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>1 merged · 1 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>2 merged · 5 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>2 merged · 5 open</sub>
 </p>
 
 <details>
@@ -174,7 +174,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44372">#44372 · refactor(web): share workflow comment queries and mutations</a> | Open |
 | langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44360">#44360 · refactor(web): use Console Query in the install form</a> | Open |
 | langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44359">#44359 · fix(web): avoid redundant indexing notifications</a> | Open |
-| lfnovo/open-notebook | <a href="https://github.com/lfnovo/open-notebook/pull/1525">#1525 · fix(search): require an embedding model for the Ask shortcut</a> | Open |
+| lfnovo/open-notebook | <a href="https://github.com/lfnovo/open-notebook/pull/1525">#1525 · fix(search): require an embedding model for the Ask shortcut</a> | Merged |
 | lfnovo/open-notebook | <a href="https://github.com/lfnovo/open-notebook/pull/1524">#1524 · fix(i18n): pluralize search result counts</a> | Merged |
 | librelane/librelane | <a href="https://github.com/librelane/librelane/pull/1053">#1053 · KLayout: make DEF layer map optional</a> | Open |
 | ollama/ollama | <a href="https://github.com/ollama/ollama/pull/19097">#19097 · Avoid reusing runners after cancelled startup</a> | Open |
