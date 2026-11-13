@@ -1,6 +1,6 @@
 {
   "username": "jinchuntan",
-  "checked_on": "2026-11-12",
+  "checked_on": "2026-11-13",
   "pull_requests": [
     {
       "repository": "8f4e/8f4e",
@@ -262,9 +262,9 @@
       "repository": "hanzoai/ml",
       "number": 25,
       "title": "fix(hanzo-3d): use log-scale and logit opacity in PLY",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/hanzoai/ml/pull/25",
-      "updated_at": "2026-11-09T11:03:26Z"
+      "updated_at": "2026-11-13T02:55:36Z"
     },
     {
       "repository": "huggingface/datasets",
@@ -756,7 +756,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "26654042565",
-    "created_at": "2026-11-09T10:57:24Z"
+    "id": "19971419806",
+    "created_at": "2026-11-13T02:55:21Z"
   }
 }

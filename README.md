@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-114eea9281b1.svg">
-  <img src="./assets/contributions-114eea9281b1.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 46 merged, 43 open, 5 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-c7a9fca98ae9.svg">
+  <img src="./assets/contributions-c7a9fca98ae9.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 47 merged, 42 open, 5 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>1 merged · 1 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>2 merged · 5 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>1 merged · 1 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>2 merged · 5 open</sub>
 </p>
 
 <details>
@@ -151,7 +151,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1304">#1304 · fix(#1301): preserve line breaks in saved table cells</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1303">#1303 · fix: declare the sync error formatter return type</a> | Merged |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1302">#1302 · fix(#1300): migrate the saved search route on startup</a> | Merged |
-| hanzoai/ml | <a href="https://github.com/hanzoai/ml/pull/25">#25 · fix(hanzo-3d): use log-scale and logit opacity in PLY</a> | Open |
+| hanzoai/ml | <a href="https://github.com/hanzoai/ml/pull/25">#25 · fix(hanzo-3d): use log-scale and logit opacity in PLY</a> | Merged |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8847">#8847 · Hide GPUs before spawning TensorFlow data workers</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8846">#8846 · Restore packaged type information and public re-exports</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8845">#8845 · Copy existing tensors without a PyTorch warning</a> | Open |
@@ -216,7 +216,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 
 </details>
 
-<p><sub>Public upstream PRs · Updated 2026-11-12 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
+<p><sub>Public upstream PRs · Updated 2026-11-13 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
 
 <!-- CONTRIBUTIONS:END -->
 
