@@ -216,7 +216,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 
 </details>
 
-<p><sub>Public upstream PRs · Updated 2026-11-13 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
+<p><sub>Public upstream PRs · Updated 2026-11-14 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
 
 <!-- CONTRIBUTIONS:END -->
 
