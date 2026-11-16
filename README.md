@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-d6aea31e1ef4.svg">
-  <img src="./assets/contributions-d6aea31e1ef4.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 48 merged, 41 open, 5 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-a9a28a65ab02.svg">
+  <img src="./assets/contributions-a9a28a65ab02.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 49 merged, 40 open, 5 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>2 merged · 5 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>3 merged · 4 open</sub>
 </p>
 
 <details>
@@ -184,7 +184,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1085">#1085 · Backport FPU parameter compatibility fix</a> | Open |
 | openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1084">#1084 · Clarify FPU instruction issue limits</a> | Open |
 | openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1083">#1083 · Fix Bender source list for the current core</a> | Open |
-| openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1082">#1082 · Document misaligned access atomicity</a> | Open |
+| openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1082">#1082 · Document misaligned access atomicity</a> | Merged |
 | openhwfoundation/cv32e40p | <a href="https://github.com/openhwfoundation/cv32e40p/pull/1081">#1081 · Fix nested port lists in example constraints</a> | Open |
 | pandas-dev/pandas | <a href="https://github.com/pandas-dev/pandas/pull/71269">#71269 · BUG preserve error bars when plot labels are changed</a> | Open |
 | piyush588/vibeCI | <a href="https://github.com/piyush588/vibeCI/pull/22">#22 · Add Netlify configuration preflight checks</a> | Open |

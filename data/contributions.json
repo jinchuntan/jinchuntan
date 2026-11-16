@@ -494,9 +494,9 @@
       "repository": "openhwfoundation/cv32e40p",
       "number": 1082,
       "title": "Document misaligned access atomicity",
-      "status": "Open",
+      "status": "Merged",
       "url": "https://github.com/openhwfoundation/cv32e40p/pull/1082",
-      "updated_at": "2026-10-29T16:24:22Z"
+      "updated_at": "2026-11-16T22:18:14Z"
     },
     {
       "repository": "openhwfoundation/cv32e40p",
@@ -756,7 +756,7 @@
     }
   ],
   "event_checkpoint": {
-    "id": "19971419806",
-    "created_at": "2026-11-13T02:55:21Z"
+    "id": "20323239882",
+    "created_at": "2026-11-16T22:18:14Z"
   }
 }
