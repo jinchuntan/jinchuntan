@@ -103,7 +103,6 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apytest-dev%2Fpytest&amp;type=pullrequests">pytest</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a> <sub>1 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3A8f4e%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>14 merged · 1 open</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3AChristianHandy%2FFleetPilot&amp;type=pullrequests">FleetPilot</a> <sub>2 merged</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged · 1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>12 merged</sub>
     </td>
@@ -111,7 +110,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>3 merged · 4 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Afleetpilot-dev%2FFleetPilot&amp;type=pullrequests">fleetpilot-dev/FleetPilot</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>3 merged · 4 open</sub>
 </p>
 
 <details>
@@ -136,8 +135,6 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1078">#1078 · fix(compiler): reject invalid array sizes</a> | Merged |
 | astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29454">#29454 · &#91;flake8-use-pathlib&#93; Add an autofix for the last path component (PTH206)</a> | Closed |
 | astral-sh/ruff | <a href="https://github.com/astral-sh/ruff/pull/29453">#29453 · &#91;flake8-use-pathlib&#93; Add an autofix for extension access (PTH122)</a> | Closed |
-| ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/111">#111 · Add tests for scheduler settings and automatic updates</a> | Merged |
-| ChristianHandy/FleetPilot | <a href="https://github.com/ChristianHandy/FleetPilot/pull/110">#110 · Add tests for the example Slack notification plugin</a> | Merged |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1314">#1314 · fix(#1082): reveal folders through the desktop file manager</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1313">#1313 · fix(#762): allow full URLs for HTTP speech endpoints</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1312">#1312 · fix(#1294): keep tab content paired with its file snapshot</a> | Merged |
@@ -151,6 +148,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1304">#1304 · fix(#1301): preserve line breaks in saved table cells</a> | Open |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1303">#1303 · fix: declare the sync error formatter return type</a> | Merged |
 | codexu/note-gen | <a href="https://github.com/codexu/note-gen/pull/1302">#1302 · fix(#1300): migrate the saved search route on startup</a> | Merged |
+| fleetpilot-dev/FleetPilot | <a href="https://github.com/fleetpilot-dev/FleetPilot/pull/111">#111 · Add tests for scheduler settings and automatic updates</a> | Merged |
+| fleetpilot-dev/FleetPilot | <a href="https://github.com/fleetpilot-dev/FleetPilot/pull/110">#110 · Add tests for the example Slack notification plugin</a> | Merged |
 | hanzoai/ml | <a href="https://github.com/hanzoai/ml/pull/25">#25 · fix(hanzo-3d): use log-scale and logit opacity in PLY</a> | Merged |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8847">#8847 · Hide GPUs before spawning TensorFlow data workers</a> | Open |
 | huggingface/datasets | <a href="https://github.com/huggingface/datasets/pull/8846">#8846 · Restore packaged type information and public re-exports</a> | Open |
@@ -216,7 +215,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 
 </details>
 
-<p><sub>Public upstream PRs · Updated 2026-11-17 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
+<p><sub>Public upstream PRs · Updated 2026-11-18 · <a href="https://github.com/jinchuntan/jinchuntan/actions/workflows/update-profile.yml">Auto-refresh ~6h</a></sub></p>
 
 <!-- CONTRIBUTIONS:END -->
 

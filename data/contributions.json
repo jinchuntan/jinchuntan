@@ -1,6 +1,6 @@
 {
   "username": "jinchuntan",
-  "checked_on": "2026-11-17",
+  "checked_on": "2026-11-18",
   "pull_requests": [
     {
       "repository": "8f4e/8f4e",
@@ -139,22 +139,6 @@
       "updated_at": "2026-10-19T14:33:25Z"
     },
     {
-      "repository": "ChristianHandy/FleetPilot",
-      "number": 110,
-      "title": "Add tests for the example Slack notification plugin",
-      "status": "Merged",
-      "url": "https://github.com/ChristianHandy/FleetPilot/pull/110",
-      "updated_at": "2026-10-17T20:29:17Z"
-    },
-    {
-      "repository": "ChristianHandy/FleetPilot",
-      "number": 111,
-      "title": "Add tests for scheduler settings and automatic updates",
-      "status": "Merged",
-      "url": "https://github.com/ChristianHandy/FleetPilot/pull/111",
-      "updated_at": "2026-10-17T20:30:20Z"
-    },
-    {
       "repository": "codexu/note-gen",
       "number": 1302,
       "title": "fix(#1300): migrate the saved search route on startup",
@@ -257,6 +241,22 @@
       "status": "Open",
       "url": "https://github.com/codexu/note-gen/pull/1314",
       "updated_at": "2026-10-22T19:44:29Z"
+    },
+    {
+      "repository": "fleetpilot-dev/FleetPilot",
+      "number": 110,
+      "title": "Add tests for the example Slack notification plugin",
+      "status": "Merged",
+      "url": "https://github.com/fleetpilot-dev/FleetPilot/pull/110",
+      "updated_at": "2026-10-17T20:29:17Z"
+    },
+    {
+      "repository": "fleetpilot-dev/FleetPilot",
+      "number": 111,
+      "title": "Add tests for scheduler settings and automatic updates",
+      "status": "Merged",
+      "url": "https://github.com/fleetpilot-dev/FleetPilot/pull/111",
+      "updated_at": "2026-10-17T20:30:20Z"
     },
     {
       "repository": "hanzoai/ml",
