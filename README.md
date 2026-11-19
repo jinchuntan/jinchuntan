@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-a9a28a65ab02.svg">
-  <img src="./assets/contributions-a9a28a65ab02.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 49 merged, 40 open, 5 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-08f2902e70b0.svg">
+  <img src="./assets/contributions-08f2902e70b0.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 49 merged, 38 open, 7 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -110,7 +110,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 </table>
 
 <p><strong>More repositories</strong><br>
-<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Afleetpilot-dev%2FFleetPilot&amp;type=pullrequests">fleetpilot-dev/FleetPilot</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>3 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>3 merged · 4 open</sub>
+<a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Acodexu%2Fnote-gen&amp;type=pullrequests">codexu/note-gen</a> <sub>6 merged · 7 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Afleetpilot-dev%2FFleetPilot&amp;type=pullrequests">fleetpilot-dev/FleetPilot</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Ahanzoai%2Fml&amp;type=pullrequests">hanzoai/ml</a> <sub>1 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Akhoj-ai%2Fkhoj&amp;type=pullrequests">khoj-ai/khoj</a> <sub>5 open</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alanggenius%2Fdify&amp;type=pullrequests">langgenius/dify</a> <sub>1 open · 2 closed</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Alfnovo%2Fopen-notebook&amp;type=pullrequests">lfnovo/open-notebook</a> <sub>2 merged</sub><br><br><a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aopenhwfoundation%2Fcv32e40p&amp;type=pullrequests">openhwfoundation/cv32e40p</a> <sub>3 merged · 4 open</sub>
 </p>
 
 <details>
@@ -170,8 +170,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11974">#11974 · fix(google-common): preserve anyOf tool schemas</a> | Open |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11973">#11973 · fix(core): preserve routes and per-input errors in router batches</a> | Open |
 | langchain-ai/langchainjs | <a href="https://github.com/langchain-ai/langchainjs/pull/11972">#11972 · fix(openai): preserve request options when streaming</a> | Open |
-| langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44372">#44372 · refactor(web): share workflow comment queries and mutations</a> | Open |
-| langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44360">#44360 · refactor(web): use Console Query in the install form</a> | Open |
+| langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44372">#44372 · refactor(web): share workflow comment queries and mutations</a> | Closed |
+| langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44360">#44360 · refactor(web): use Console Query in the install form</a> | Closed |
 | langgenius/dify | <a href="https://github.com/langgenius/dify/pull/44359">#44359 · fix(web): avoid redundant indexing notifications</a> | Open |
 | lfnovo/open-notebook | <a href="https://github.com/lfnovo/open-notebook/pull/1525">#1525 · fix(search): require an embedding model for the Ask shortcut</a> | Merged |
 | lfnovo/open-notebook | <a href="https://github.com/lfnovo/open-notebook/pull/1524">#1524 · fix(i18n): pluralize search result counts</a> | Merged |
