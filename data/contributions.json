@@ -544,7 +544,7 @@
       "title": "BUG preserve error bars when plot labels are changed",
       "status": "Open",
       "url": "https://github.com/pandas-dev/pandas/pull/71269",
-      "updated_at": "2026-11-10T01:09:55Z"
+      "updated_at": "2026-11-24T01:09:50Z"
     },
     {
       "repository": "piyush588/vibeCI",
