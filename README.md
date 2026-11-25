@@ -73,8 +73,8 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
   <tr>
     <td colspan="3">
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-08f2902e70b0.svg">
-  <img src="./assets/contributions-08f2902e70b0.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 49 merged, 38 open, 7 closed without merging.">
+  <source media="(max-width: 600px)" srcset="./assets/contributions-compact-33c2c96c5013.svg">
+  <img src="./assets/contributions-33c2c96c5013.svg" width="100%" alt="94 public upstream PRs across 25 repositories: 49 merged, 37 open, 8 closed without merging.">
 </picture>
     </td>
   </tr>
@@ -102,7 +102,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Aprettier%2Fprettier&amp;type=pullrequests">Prettier</a> <sub>1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apytest-dev%2Fpytest&amp;type=pullrequests">pytest</a> <sub>1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Asnakemake%2Fsnakemake&amp;type=pullrequests">Snakemake</a> <sub>1 merged</sub><br>
-      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3A8f4e%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>14 merged · 1 open</sub><br>
+      <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3A8f4e%2F8f4e&amp;type=pullrequests">8f4e</a> <sub>14 merged · 1 closed</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apiyush588%2FvibeCI&amp;type=pullrequests">vibeCI</a> <sub>1 merged · 1 open</sub><br>
       <a href="https://github.com/search?q=is%3Apr+author%3Ajinchuntan+repo%3Apyrite-wiki%2Fpyrite&amp;type=pullrequests">Pyrite</a> <sub>12 merged</sub>
     </td>
@@ -125,7 +125,7 @@ Also: [ProcurePilot](https://github.com/jinchuntan/procurepilot) · [GotongFlow]
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1101">#1101 · fix(semantic-utils): remove unused block depth cache</a> | Merged |
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1100">#1100 · fix(stack-analyzer): validate localSet float widths</a> | Merged |
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1093">#1093 · fix(tokenizer): reject non-ASCII entity names</a> | Merged |
-| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1091">#1091 · fix(memory-reference-resolver): preserve float64 metadata bounds</a> | Open |
+| 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1091">#1091 · fix(memory-reference-resolver): preserve float64 metadata bounds</a> | Closed |
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1090">#1090 · fix(memory-planner): preserve float64 array value types</a> | Merged |
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1089">#1089 · fix(tokenizer): preserve exponent signs in compile-time expressions</a> | Merged |
 | 8f4e/8f4e | <a href="https://github.com/8f4e/8f4e/pull/1088">#1088 · fix(wasm-codegen): preserve one-element array initializers</a> | Merged |

@@ -62,9 +62,9 @@
       "repository": "8f4e/8f4e",
       "number": 1091,
       "title": "fix(memory-reference-resolver): preserve float64 metadata bounds",
-      "status": "Open",
+      "status": "Closed",
       "url": "https://github.com/8f4e/8f4e/pull/1091",
-      "updated_at": "2026-11-01T11:44:21Z"
+      "updated_at": "2026-11-25T18:36:37Z"
     },
     {
       "repository": "8f4e/8f4e",
